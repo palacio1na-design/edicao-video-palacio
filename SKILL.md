@@ -52,10 +52,12 @@ O sistema opera com 5 skills integradas (registradas em `~/.gemini/config/skills
 ```
 edicao-video-palacio/
 ├── SKILL.md                            # Diretrizes oficiais e fluxo operacional
+├── PALACIO-EVOLUCAO-AUTOBROLL.md       # Evolução AutoBroll: Montagem inteligente e corte narrativo
 ├── PALACIO-DIRECAO-CRIATIVA.md         # Relatório completo do método e comparativo de timeline
 ├── PALACIO-VIDEOS-INTEGRACAO-7.0.md    # Relatório executivo da integração dos motores
 ├── PALACIO-SOUND-DIRECTOR.md           # Manual de engenharia de áudio e Pedalboard
 ├── core/
+│   ├── intelligent_montage_engine.py  # Motor de Montagem Inteligente (AutoBroll / Auto-Editor)
 │   ├── creative_director.py           # MASTER CREATIVE DIRECTOR (Orquestrador das 5 Skills)
 │   ├── pipeline.py                    # Master Pipeline Unificada
 │   ├── brand_config.py                # Gestor de marca e detector anti-regressão
@@ -68,9 +70,10 @@ edicao-video-palacio/
 └── remotion/                           # Motor de Renderização 1080x1920 (React 19 + Remotion)
     └── src/
         ├── creative-engine/
-        │   ├── CreativeFramedLayer.tsx        # Moldura 2.5D com ambient blur e reflexo dourado
-        │   ├── CinematicAudioEngine.tsx       # Player determinístico de SFX frame a frame
-        │   └── CreativeMasterComposition.tsx  # Composição Master com as 5 skills na timeline
+        │   ├── IntelligentMontageComposition.tsx # Composição AutoBroll multicâmera A/B-Roll
+        │   ├── CreativeFramedLayer.tsx           # Moldura 2.5D com ambient blur e reflexo dourado
+        │   ├── CinematicAudioEngine.tsx          # Player determinístico de SFX frame a frame
+        │   └── CreativeMasterComposition.tsx     # Composição Master com as 5 skills na timeline
         └── motion-library/
             ├── BrandConfig.ts                 # Contrato TypeScript Palácio Acolhimento
             ├── SocialSafeZones.ts             # Zonas seguras para componentes React
