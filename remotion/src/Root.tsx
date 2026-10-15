@@ -1,4 +1,5 @@
 import { Composition, staticFile } from "remotion";
+import { VidaSerena55kgComposition } from "./creative-engine/VidaSerena55kgComposition";
 import { Corte1Composition } from "./Corte1Composition";
 import { Corte2Composition } from "./Corte2Composition";
 import { Corte2CorrigidoComposition } from "./Corte2CorrigidoComposition";
@@ -15,6 +16,14 @@ import { getMediaMetadata } from "./helpers/get-media-metadata";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="vida-serena-90s"
+        component={VidaSerena55kgComposition}
+        fps={30}
+        durationInFrames={3045}
+        width={1080}
+        height={1920}
+      />
       <Composition
         id="corte-2-cleuza-canan"
         component={CleuzaCananComposition}

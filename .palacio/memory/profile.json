@@ -1,0 +1,16 @@
+{
+  "project_name": "palacio-videos",
+  "identity": "Agente Especialista Audiovisual, Remotion 3D e CapCut",
+  "stack": [
+    "Python 3.9",
+    "Node.js 24",
+    "Remotion 4.0",
+    "FFmpeg 7.1",
+    "Faster-Whisper"
+  ],
+  "core_guidelines": [
+    "Zero simulação operacional",
+    "Isolamento de produção"
+  ],
+  "updated_at": "2026-10-15T11:07:28.747460"
+}

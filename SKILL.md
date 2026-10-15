@@ -59,6 +59,8 @@ edicao-video-palacio/
 ├── PALACIO-SOUND-DIRECTOR.md           # Manual de engenharia de áudio e Pedalboard
 ├── core/
 │   ├── podcast_clipper.py             # MOTOR DE 30 CORTES (Ingestão, Whisper, Face Track, Dossiê)
+│   ├── reverse_engine.py              # Motor de Engenharia Reversa (REA, CapCut Inspector, After Effects JSX)
+│   ├── capcut_bridge.py               # Integração e exportação para o CapCut Desktop
 │   ├── intelligent_montage_engine.py  # Motor de Montagem Inteligente (AutoBroll / Auto-Editor)
 │   ├── creative_director.py           # MASTER CREATIVE DIRECTOR (Orquestrador das 5 Skills)
 │   ├── pipeline.py                    # Master Pipeline Unificada
@@ -96,6 +98,15 @@ cd ~/.gemini/config/skills/edicao-video-palacio/remotion
 npx remotion render corte-2-creative-master ~/Downloads/Corte_02_Vida_Serena_Palacio_Acolhimento_DIRECAO_CRIATIVA.mp4 --concurrency=7
 ```
 
+### Interoperabilidade e Engenharia Reversa (CapCut & After Effects)
+```bash
+# 1. Inspecionar rascunho do CapCut Desktop para análise reversa de faixas e legendas
+python3 cli.py inspect-capcut "NomeDoProjeto"
+
+# 2. Exportar timeline e legendas diretamente para script nativo do Adobe After Effects (.jsx)
+python3 cli.py export-ae video.mp4 --words transcript_words.json --name "Corte_Palacio" --output timeline.jsx
+```
+
 ### Finalização e Auditoria Acústica / Visual
 ```bash
 /Users/palacio.pro/.gemini/antigravity/scratch/.venv/bin/python \
@@ -106,3 +117,4 @@ Métricas de aprovação obrigatórias:
 - Áudio Masterizado: `-13.7` a `-14.1` LUFS, True Peak $\le -0.9\text{ dBFS}$, zero clipping.
 - Marca 100% íntegra: Zero menções a `Palácio.pro`.
 - Legendas e Títulos dentro da Zona Segura Universal.
+

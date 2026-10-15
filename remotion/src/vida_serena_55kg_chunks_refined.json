@@ -1,0 +1,1168 @@
+[
+  {
+    "start": 0.0,
+    "end": 4.4,
+    "text": "Quando eu me internei a última vez, eu estava pesando 55 quilos.",
+    "words": [
+      {
+        "word": "Quando",
+        "start": 0.0,
+        "end": 0.86
+      },
+      {
+        "word": "eu",
+        "start": 0.86,
+        "end": 0.98
+      },
+      {
+        "word": "me",
+        "start": 0.98,
+        "end": 1.02
+      },
+      {
+        "word": "internei",
+        "start": 1.02,
+        "end": 1.42
+      },
+      {
+        "word": "a",
+        "start": 1.42,
+        "end": 1.48
+      },
+      {
+        "word": "última",
+        "start": 1.48,
+        "end": 1.74
+      },
+      {
+        "word": "vez,",
+        "start": 1.74,
+        "end": 2.18
+      },
+      {
+        "word": "eu",
+        "start": 2.38,
+        "end": 2.44
+      },
+      {
+        "word": "estava",
+        "start": 2.44,
+        "end": 2.64
+      },
+      {
+        "word": "pesando",
+        "start": 2.64,
+        "end": 3.04
+      },
+      {
+        "word": "55",
+        "start": 3.04,
+        "end": 3.68
+      },
+      {
+        "word": "quilos.",
+        "start": 3.68,
+        "end": 4.4
+      }
+    ]
+  },
+  {
+    "start": 5.9,
+    "end": 8.82,
+    "text": "55 quilos, eu tenho 1,86m",
+    "words": [
+      {
+        "word": "55",
+        "start": 5.9,
+        "end": 6.58
+      },
+      {
+        "word": "quilos,",
+        "start": 6.58,
+        "end": 7.26
+      },
+      {
+        "word": "eu",
+        "start": 7.26,
+        "end": 7.44
+      },
+      {
+        "word": "tenho",
+        "start": 7.44,
+        "end": 7.58
+      },
+      {
+        "word": "1,86m",
+        "start": 7.58,
+        "end": 8.82
+      }
+    ]
+  },
+  {
+    "start": 10.9,
+    "end": 17.52,
+    "text": "Hoje eu peso 92 quilos, mas eu tenho 1,86m eu pesava 55 quilos.",
+    "words": [
+      {
+        "word": "Hoje",
+        "start": 10.9,
+        "end": 11.58
+      },
+      {
+        "word": "eu",
+        "start": 11.58,
+        "end": 11.66
+      },
+      {
+        "word": "peso",
+        "start": 11.66,
+        "end": 11.9
+      },
+      {
+        "word": "92",
+        "start": 11.9,
+        "end": 12.6
+      },
+      {
+        "word": "quilos,",
+        "start": 12.6,
+        "end": 13.68
+      },
+      {
+        "word": "mas",
+        "start": 14.06,
+        "end": 14.32
+      },
+      {
+        "word": "eu",
+        "start": 14.32,
+        "end": 14.44
+      },
+      {
+        "word": "tenho",
+        "start": 14.44,
+        "end": 14.56
+      },
+      {
+        "word": "1,86m",
+        "start": 14.56,
+        "end": 15.66
+      },
+      {
+        "word": "eu",
+        "start": 15.66,
+        "end": 15.98
+      },
+      {
+        "word": "pesava",
+        "start": 15.98,
+        "end": 16.3
+      },
+      {
+        "word": "55",
+        "start": 16.3,
+        "end": 16.9
+      },
+      {
+        "word": "quilos.",
+        "start": 16.9,
+        "end": 17.52
+      }
+    ]
+  },
+  {
+    "start": 17.64,
+    "end": 21.8,
+    "text": "Eu sou careca, eu tinha cabelo só aqui, só o osso mesmo.",
+    "words": [
+      {
+        "word": "Eu",
+        "start": 17.64,
+        "end": 17.74
+      },
+      {
+        "word": "sou",
+        "start": 17.74,
+        "end": 17.76
+      },
+      {
+        "word": "careca,",
+        "start": 17.76,
+        "end": 18.24
+      },
+      {
+        "word": "eu",
+        "start": 18.28,
+        "end": 18.34
+      },
+      {
+        "word": "tinha",
+        "start": 18.34,
+        "end": 18.48
+      },
+      {
+        "word": "cabelo",
+        "start": 18.48,
+        "end": 18.82
+      },
+      {
+        "word": "só",
+        "start": 18.82,
+        "end": 19.06
+      },
+      {
+        "word": "aqui,",
+        "start": 19.06,
+        "end": 19.34
+      },
+      {
+        "word": "só",
+        "start": 19.96,
+        "end": 20.88
+      },
+      {
+        "word": "o",
+        "start": 20.88,
+        "end": 21.12
+      },
+      {
+        "word": "osso",
+        "start": 21.12,
+        "end": 21.44
+      },
+      {
+        "word": "mesmo.",
+        "start": 21.44,
+        "end": 21.8
+      }
+    ]
+  },
+  {
+    "start": 23.14,
+    "end": 27.12,
+    "text": "Passei uma semana deitado sem conseguir andar.",
+    "words": [
+      {
+        "word": "Passei",
+        "start": 23.14,
+        "end": 23.66
+      },
+      {
+        "word": "uma",
+        "start": 23.66,
+        "end": 24.28
+      },
+      {
+        "word": "semana",
+        "start": 24.28,
+        "end": 25.12
+      },
+      {
+        "word": "deitado",
+        "start": 25.12,
+        "end": 25.94
+      },
+      {
+        "word": "sem",
+        "start": 25.94,
+        "end": 26.18
+      },
+      {
+        "word": "conseguir",
+        "start": 26.18,
+        "end": 26.64
+      },
+      {
+        "word": "andar.",
+        "start": 26.64,
+        "end": 27.12
+      }
+    ]
+  },
+  {
+    "start": 30.94,
+    "end": 33.34,
+    "text": "Pessoal na clínica eu vim trazer a comida.",
+    "words": [
+      {
+        "word": "Pessoal",
+        "start": 30.94,
+        "end": 31.5
+      },
+      {
+        "word": "na",
+        "start": 31.5,
+        "end": 32.06
+      },
+      {
+        "word": "clínica",
+        "start": 32.06,
+        "end": 32.38
+      },
+      {
+        "word": "eu",
+        "start": 32.38,
+        "end": 32.52
+      },
+      {
+        "word": "vim",
+        "start": 32.52,
+        "end": 32.58
+      },
+      {
+        "word": "trazer",
+        "start": 32.58,
+        "end": 32.86
+      },
+      {
+        "word": "a",
+        "start": 32.86,
+        "end": 33.04
+      },
+      {
+        "word": "comida.",
+        "start": 33.04,
+        "end": 33.34
+      }
+    ]
+  },
+  {
+    "start": 35.02,
+    "end": 37.32,
+    "text": "Sabe qual foi a primeira coisa que eu fiz?",
+    "words": [
+      {
+        "word": "Sabe",
+        "start": 35.02,
+        "end": 35.58
+      },
+      {
+        "word": "qual",
+        "start": 35.58,
+        "end": 35.74
+      },
+      {
+        "word": "foi",
+        "start": 35.74,
+        "end": 35.92
+      },
+      {
+        "word": "a",
+        "start": 35.92,
+        "end": 36.0
+      },
+      {
+        "word": "primeira",
+        "start": 36.0,
+        "end": 36.24
+      },
+      {
+        "word": "coisa",
+        "start": 36.24,
+        "end": 36.74
+      },
+      {
+        "word": "que",
+        "start": 36.74,
+        "end": 36.92
+      },
+      {
+        "word": "eu",
+        "start": 36.92,
+        "end": 37.02
+      },
+      {
+        "word": "fiz?",
+        "start": 37.02,
+        "end": 37.32
+      }
+    ]
+  },
+  {
+    "start": 38.64,
+    "end": 41.74,
+    "text": "Olha que eu entrei na clínica falando, prometendo para mim e para Deus.",
+    "words": [
+      {
+        "word": "Olha",
+        "start": 38.64,
+        "end": 38.84
+      },
+      {
+        "word": "que",
+        "start": 38.84,
+        "end": 39.02
+      },
+      {
+        "word": "eu",
+        "start": 39.02,
+        "end": 39.06
+      },
+      {
+        "word": "entrei",
+        "start": 39.06,
+        "end": 39.34
+      },
+      {
+        "word": "na",
+        "start": 39.34,
+        "end": 39.44
+      },
+      {
+        "word": "clínica",
+        "start": 39.44,
+        "end": 39.84
+      },
+      {
+        "word": "falando,",
+        "start": 39.84,
+        "end": 40.22
+      },
+      {
+        "word": "prometendo",
+        "start": 40.42,
+        "end": 40.8
+      },
+      {
+        "word": "para",
+        "start": 40.8,
+        "end": 41.04
+      },
+      {
+        "word": "mim",
+        "start": 41.04,
+        "end": 41.2
+      },
+      {
+        "word": "e",
+        "start": 41.2,
+        "end": 41.34
+      },
+      {
+        "word": "para",
+        "start": 41.34,
+        "end": 41.44
+      },
+      {
+        "word": "Deus.",
+        "start": 41.44,
+        "end": 41.74
+      }
+    ]
+  },
+  {
+    "start": 42.82,
+    "end": 44.48,
+    "text": "Eu não recaio mais. Chega.",
+    "words": [
+      {
+        "word": "Eu",
+        "start": 42.82,
+        "end": 42.96
+      },
+      {
+        "word": "não",
+        "start": 42.96,
+        "end": 43.08
+      },
+      {
+        "word": "recaio",
+        "start": 43.08,
+        "end": 43.42
+      },
+      {
+        "word": "mais.",
+        "start": 43.42,
+        "end": 43.64
+      },
+      {
+        "word": "Chega.",
+        "start": 44.16,
+        "end": 44.48
+      }
+    ]
+  },
+  {
+    "start": 45.22,
+    "end": 46.62,
+    "text": "Essa é a última vez.",
+    "words": [
+      {
+        "word": "Essa",
+        "start": 45.22,
+        "end": 45.56
+      },
+      {
+        "word": "é",
+        "start": 45.56,
+        "end": 45.66
+      },
+      {
+        "word": "a",
+        "start": 45.66,
+        "end": 45.72
+      },
+      {
+        "word": "última",
+        "start": 45.72,
+        "end": 46.0
+      },
+      {
+        "word": "vez.",
+        "start": 46.0,
+        "end": 46.62
+      }
+    ]
+  },
+  {
+    "start": 49.04,
+    "end": 52.64,
+    "text": "Uma semana que eu me levantei, pessoal me dopando,",
+    "words": [
+      {
+        "word": "Uma",
+        "start": 49.04,
+        "end": 49.6
+      },
+      {
+        "word": "semana",
+        "start": 49.6,
+        "end": 50.14
+      },
+      {
+        "word": "que",
+        "start": 50.14,
+        "end": 50.54
+      },
+      {
+        "word": "eu",
+        "start": 50.54,
+        "end": 50.6
+      },
+      {
+        "word": "me",
+        "start": 50.6,
+        "end": 50.7
+      },
+      {
+        "word": "levantei,",
+        "start": 50.7,
+        "end": 51.32
+      },
+      {
+        "word": "pessoal",
+        "start": 51.64,
+        "end": 51.88
+      },
+      {
+        "word": "me",
+        "start": 51.88,
+        "end": 52.02
+      },
+      {
+        "word": "dopando,",
+        "start": 52.02,
+        "end": 52.64
+      }
+    ]
+  },
+  {
+    "start": 54.08,
+    "end": 56.42,
+    "text": "falei, tem um dinheiro no caixinha, vou embora.",
+    "words": [
+      {
+        "word": "falei,",
+        "start": 54.08,
+        "end": 54.64
+      },
+      {
+        "word": "tem",
+        "start": 54.78,
+        "end": 54.86
+      },
+      {
+        "word": "um",
+        "start": 54.86,
+        "end": 54.96
+      },
+      {
+        "word": "dinheiro",
+        "start": 54.96,
+        "end": 55.22
+      },
+      {
+        "word": "no",
+        "start": 55.22,
+        "end": 55.4
+      },
+      {
+        "word": "caixinha,",
+        "start": 55.4,
+        "end": 55.88
+      },
+      {
+        "word": "vou",
+        "start": 56.0,
+        "end": 56.04
+      },
+      {
+        "word": "embora.",
+        "start": 56.04,
+        "end": 56.42
+      }
+    ]
+  },
+  {
+    "start": 57.4,
+    "end": 61.54,
+    "text": "Aí eu descobri que eu podia fazer uma coisa que eu nunca tinha feito.",
+    "words": [
+      {
+        "word": "Aí",
+        "start": 57.4,
+        "end": 58.08
+      },
+      {
+        "word": "eu",
+        "start": 58.08,
+        "end": 58.16
+      },
+      {
+        "word": "descobri",
+        "start": 58.16,
+        "end": 58.66
+      },
+      {
+        "word": "que",
+        "start": 58.66,
+        "end": 59.22
+      },
+      {
+        "word": "eu",
+        "start": 59.22,
+        "end": 59.3
+      },
+      {
+        "word": "podia",
+        "start": 59.3,
+        "end": 59.52
+      },
+      {
+        "word": "fazer",
+        "start": 59.52,
+        "end": 59.86
+      },
+      {
+        "word": "uma",
+        "start": 59.86,
+        "end": 60.04
+      },
+      {
+        "word": "coisa",
+        "start": 60.04,
+        "end": 60.4
+      },
+      {
+        "word": "que",
+        "start": 60.4,
+        "end": 60.62
+      },
+      {
+        "word": "eu",
+        "start": 60.62,
+        "end": 60.68
+      },
+      {
+        "word": "nunca",
+        "start": 60.68,
+        "end": 60.84
+      },
+      {
+        "word": "tinha",
+        "start": 60.84,
+        "end": 61.06
+      },
+      {
+        "word": "feito.",
+        "start": 61.06,
+        "end": 61.54
+      }
+    ]
+  },
+  {
+    "start": 62.4,
+    "end": 64.8,
+    "text": "Dizer não para mim mesmo.",
+    "words": [
+      {
+        "word": "Dizer",
+        "start": 62.4,
+        "end": 62.72
+      },
+      {
+        "word": "não",
+        "start": 62.72,
+        "end": 63.14
+      },
+      {
+        "word": "para",
+        "start": 63.14,
+        "end": 63.6
+      },
+      {
+        "word": "mim",
+        "start": 63.6,
+        "end": 63.92
+      },
+      {
+        "word": "mesmo.",
+        "start": 63.92,
+        "end": 64.8
+      }
+    ]
+  },
+  {
+    "start": 65.32,
+    "end": 70.6,
+    "text": "Falar não, cara. Chega. Chega. Não dá mais.",
+    "words": [
+      {
+        "word": "Falar",
+        "start": 65.32,
+        "end": 66.0
+      },
+      {
+        "word": "não,",
+        "start": 66.0,
+        "end": 66.44
+      },
+      {
+        "word": "cara.",
+        "start": 66.66,
+        "end": 66.88
+      },
+      {
+        "word": "Chega.",
+        "start": 67.7,
+        "end": 68.04
+      },
+      {
+        "word": "Chega.",
+        "start": 69.02,
+        "end": 69.58
+      },
+      {
+        "word": "Não",
+        "start": 69.82,
+        "end": 70.06
+      },
+      {
+        "word": "dá",
+        "start": 70.06,
+        "end": 70.24
+      },
+      {
+        "word": "mais.",
+        "start": 70.24,
+        "end": 70.6
+      }
+    ]
+  },
+  {
+    "start": 71.96,
+    "end": 74.08,
+    "text": "Ali eu desisti a primeira vez.",
+    "words": [
+      {
+        "word": "Ali",
+        "start": 71.96,
+        "end": 72.32
+      },
+      {
+        "word": "eu",
+        "start": 72.32,
+        "end": 72.42
+      },
+      {
+        "word": "desisti",
+        "start": 72.42,
+        "end": 73.06
+      },
+      {
+        "word": "a",
+        "start": 73.06,
+        "end": 73.38
+      },
+      {
+        "word": "primeira",
+        "start": 73.38,
+        "end": 73.7
+      },
+      {
+        "word": "vez.",
+        "start": 73.7,
+        "end": 74.08
+      }
+    ]
+  },
+  {
+    "start": 74.5,
+    "end": 77.84,
+    "text": "A primeira vez que eu desisti de embora, de um tratamento.",
+    "words": [
+      {
+        "word": "A",
+        "start": 74.5,
+        "end": 74.86
+      },
+      {
+        "word": "primeira",
+        "start": 74.86,
+        "end": 75.22
+      },
+      {
+        "word": "vez",
+        "start": 75.22,
+        "end": 75.58
+      },
+      {
+        "word": "que",
+        "start": 75.58,
+        "end": 75.7
+      },
+      {
+        "word": "eu",
+        "start": 75.7,
+        "end": 75.76
+      },
+      {
+        "word": "desisti",
+        "start": 75.76,
+        "end": 76.12
+      },
+      {
+        "word": "de",
+        "start": 76.12,
+        "end": 76.26
+      },
+      {
+        "word": "embora,",
+        "start": 76.26,
+        "end": 76.6
+      },
+      {
+        "word": "de",
+        "start": 77.14,
+        "end": 77.2
+      },
+      {
+        "word": "um",
+        "start": 77.2,
+        "end": 77.28
+      },
+      {
+        "word": "tratamento.",
+        "start": 77.28,
+        "end": 77.84
+      }
+    ]
+  },
+  {
+    "start": 79.02,
+    "end": 83.34,
+    "text": "Foi a primeira vez que eu estava num tratamento, falei que ia desistir.",
+    "words": [
+      {
+        "word": "Foi",
+        "start": 79.02,
+        "end": 79.18
+      },
+      {
+        "word": "a",
+        "start": 79.18,
+        "end": 79.26
+      },
+      {
+        "word": "primeira",
+        "start": 79.26,
+        "end": 79.6
+      },
+      {
+        "word": "vez",
+        "start": 79.6,
+        "end": 79.88
+      },
+      {
+        "word": "que",
+        "start": 79.88,
+        "end": 80.06
+      },
+      {
+        "word": "eu",
+        "start": 80.06,
+        "end": 80.14
+      },
+      {
+        "word": "estava",
+        "start": 80.14,
+        "end": 80.46
+      },
+      {
+        "word": "num",
+        "start": 80.46,
+        "end": 80.64
+      },
+      {
+        "word": "tratamento,",
+        "start": 80.64,
+        "end": 81.18
+      },
+      {
+        "word": "falei",
+        "start": 81.18,
+        "end": 82.08
+      },
+      {
+        "word": "que",
+        "start": 82.08,
+        "end": 82.34
+      },
+      {
+        "word": "ia",
+        "start": 82.34,
+        "end": 82.6
+      },
+      {
+        "word": "desistir.",
+        "start": 82.6,
+        "end": 83.34
+      }
+    ]
+  },
+  {
+    "start": 84.48,
+    "end": 86.14,
+    "text": "E aí alguma coisa mudou.",
+    "words": [
+      {
+        "word": "E aí",
+        "start": 84.48,
+        "end": 84.92
+      },
+      {
+        "word": "alguma",
+        "start": 84.92,
+        "end": 85.14
+      },
+      {
+        "word": "coisa",
+        "start": 85.14,
+        "end": 85.64
+      },
+      {
+        "word": "mudou.",
+        "start": 85.64,
+        "end": 86.14
+      }
+    ]
+  },
+  {
+    "start": 86.92,
+    "end": 88.52,
+    "text": "Não é que tenha mudado, meu irmão.",
+    "words": [
+      {
+        "word": "Não",
+        "start": 86.92,
+        "end": 87.12
+      },
+      {
+        "word": "é",
+        "start": 87.12,
+        "end": 87.22
+      },
+      {
+        "word": "que",
+        "start": 87.22,
+        "end": 87.32
+      },
+      {
+        "word": "tenha",
+        "start": 87.32,
+        "end": 87.5
+      },
+      {
+        "word": "mudado,",
+        "start": 87.5,
+        "end": 87.88
+      },
+      {
+        "word": "meu",
+        "start": 87.88,
+        "end": 88.18
+      },
+      {
+        "word": "irmão.",
+        "start": 88.18,
+        "end": 88.52
+      }
+    ]
+  },
+  {
+    "start": 89.0,
+    "end": 90.82,
+    "text": "É que eu estava cansado de sofrer, cara.",
+    "words": [
+      {
+        "word": "É",
+        "start": 89.0,
+        "end": 89.04
+      },
+      {
+        "word": "que",
+        "start": 89.04,
+        "end": 89.14
+      },
+      {
+        "word": "eu",
+        "start": 89.14,
+        "end": 89.24
+      },
+      {
+        "word": "estava",
+        "start": 89.24,
+        "end": 89.44
+      },
+      {
+        "word": "cansado",
+        "start": 89.44,
+        "end": 89.86
+      },
+      {
+        "word": "de",
+        "start": 89.86,
+        "end": 90.04
+      },
+      {
+        "word": "sofrer,",
+        "start": 90.04,
+        "end": 90.54
+      },
+      {
+        "word": "cara.",
+        "start": 90.68,
+        "end": 90.82
+      }
+    ]
+  },
+  {
+    "start": 91.82,
+    "end": 95.4,
+    "text": "Eu estava cansado do sofrimento que é o uso de drogas.",
+    "words": [
+      {
+        "word": "Eu",
+        "start": 91.82,
+        "end": 92.04
+      },
+      {
+        "word": "estava",
+        "start": 92.04,
+        "end": 92.24
+      },
+      {
+        "word": "cansado",
+        "start": 92.24,
+        "end": 93.3
+      },
+      {
+        "word": "do",
+        "start": 93.3,
+        "end": 93.46
+      },
+      {
+        "word": "sofrimento",
+        "start": 93.46,
+        "end": 94.1
+      },
+      {
+        "word": "que",
+        "start": 94.1,
+        "end": 94.4
+      },
+      {
+        "word": "é",
+        "start": 94.4,
+        "end": 94.46
+      },
+      {
+        "word": "o",
+        "start": 94.46,
+        "end": 94.56
+      },
+      {
+        "word": "uso",
+        "start": 94.56,
+        "end": 94.76
+      },
+      {
+        "word": "de",
+        "start": 94.76,
+        "end": 94.88
+      },
+      {
+        "word": "drogas.",
+        "start": 94.88,
+        "end": 95.4
+      }
+    ]
+  },
+  {
+    "start": 96.08,
+    "end": 98.62,
+    "text": "Tava cansado de, sabe, ver minha mãe chorar?",
+    "words": [
+      {
+        "word": "Tava",
+        "start": 96.08,
+        "end": 96.32
+      },
+      {
+        "word": "cansado",
+        "start": 96.32,
+        "end": 96.88
+      },
+      {
+        "word": "de,",
+        "start": 96.88,
+        "end": 97.06
+      },
+      {
+        "word": "sabe,",
+        "start": 97.3,
+        "end": 97.52
+      },
+      {
+        "word": "ver",
+        "start": 97.64,
+        "end": 97.76
+      },
+      {
+        "word": "minha",
+        "start": 97.76,
+        "end": 97.9
+      },
+      {
+        "word": "mãe",
+        "start": 97.9,
+        "end": 98.04
+      },
+      {
+        "word": "chorar?",
+        "start": 98.04,
+        "end": 98.62
+      }
+    ]
+  }
+]
