@@ -1,0 +1,642 @@
+[
+  {
+    "start": 0.0,
+    "end": 0.77,
+    "text": "Quando eu me internei",
+    "words": [
+      {
+        "word": "Quando",
+        "start": 0.0,
+        "end": 0.21
+      },
+      {
+        "word": "eu",
+        "start": 0.21,
+        "end": 0.33
+      },
+      {
+        "word": "me",
+        "start": 0.33,
+        "end": 0.37
+      },
+      {
+        "word": "internei",
+        "start": 0.37,
+        "end": 0.77
+      }
+    ]
+  },
+  {
+    "start": 0.77,
+    "end": 1.53,
+    "text": "a última vez,",
+    "words": [
+      {
+        "word": "a",
+        "start": 0.77,
+        "end": 0.83
+      },
+      {
+        "word": "última",
+        "start": 0.83,
+        "end": 1.09
+      },
+      {
+        "word": "vez,",
+        "start": 1.09,
+        "end": 1.53
+      }
+    ]
+  },
+  {
+    "start": 1.73,
+    "end": 3.09,
+    "text": "eu estava pesando 55",
+    "words": [
+      {
+        "word": "eu",
+        "start": 1.73,
+        "end": 1.79
+      },
+      {
+        "word": "estava",
+        "start": 1.79,
+        "end": 1.99
+      },
+      {
+        "word": "pesando",
+        "start": 1.99,
+        "end": 2.39
+      },
+      {
+        "word": "55",
+        "start": 2.39,
+        "end": 3.09
+      }
+    ]
+  },
+  {
+    "start": 3.09,
+    "end": 6.61,
+    "text": "quilos. 55 quilos,",
+    "words": [
+      {
+        "word": "quilos.",
+        "start": 3.09,
+        "end": 3.75
+      },
+      {
+        "word": "55",
+        "start": 5.17,
+        "end": 5.89
+      },
+      {
+        "word": "quilos,",
+        "start": 5.89,
+        "end": 6.61
+      }
+    ]
+  },
+  {
+    "start": 6.61,
+    "end": 8.17,
+    "text": "eu tenho 1 ,86",
+    "words": [
+      {
+        "word": "eu",
+        "start": 6.61,
+        "end": 6.77
+      },
+      {
+        "word": "tenho",
+        "start": 6.77,
+        "end": 6.93
+      },
+      {
+        "word": "1",
+        "start": 6.93,
+        "end": 7.19
+      },
+      {
+        "word": ",86",
+        "start": 7.19,
+        "end": 8.17
+      }
+    ]
+  },
+  {
+    "start": 8.17,
+    "end": 11.25,
+    "text": "metros. Hoje eu peço",
+    "words": [
+      {
+        "word": "metros.",
+        "start": 8.17,
+        "end": 8.17
+      },
+      {
+        "word": "Hoje",
+        "start": 10.47,
+        "end": 10.93
+      },
+      {
+        "word": "eu",
+        "start": 10.93,
+        "end": 11.01
+      },
+      {
+        "word": "peço",
+        "start": 11.01,
+        "end": 11.25
+      }
+    ]
+  },
+  {
+    "start": 11.25,
+    "end": 13.79,
+    "text": "92 quilos, mas eu",
+    "words": [
+      {
+        "word": "92",
+        "start": 11.25,
+        "end": 11.99
+      },
+      {
+        "word": "quilos,",
+        "start": 11.99,
+        "end": 13.03
+      },
+      {
+        "word": "mas",
+        "start": 13.39,
+        "end": 13.67
+      },
+      {
+        "word": "eu",
+        "start": 13.67,
+        "end": 13.79
+      }
+    ]
+  },
+  {
+    "start": 13.79,
+    "end": 14.87,
+    "text": "tenho 1 ,86 metros,",
+    "words": [
+      {
+        "word": "tenho",
+        "start": 13.79,
+        "end": 13.91
+      },
+      {
+        "word": "1",
+        "start": 13.91,
+        "end": 14.15
+      },
+      {
+        "word": ",86",
+        "start": 14.15,
+        "end": 14.63
+      },
+      {
+        "word": "metros,",
+        "start": 14.63,
+        "end": 14.87
+      }
+    ]
+  },
+  {
+    "start": 14.87,
+    "end": 16.87,
+    "text": "eu pesava 55 quilos.",
+    "words": [
+      {
+        "word": "eu",
+        "start": 14.87,
+        "end": 15.33
+      },
+      {
+        "word": "pesava",
+        "start": 15.33,
+        "end": 15.65
+      },
+      {
+        "word": "55",
+        "start": 15.65,
+        "end": 16.25
+      },
+      {
+        "word": "quilos.",
+        "start": 16.25,
+        "end": 16.87
+      }
+    ]
+  },
+  {
+    "start": 16.99,
+    "end": 17.61,
+    "text": "Eu sou caréque,",
+    "words": [
+      {
+        "word": "Eu",
+        "start": 16.99,
+        "end": 17.09
+      },
+      {
+        "word": "sou",
+        "start": 17.09,
+        "end": 17.11
+      },
+      {
+        "word": "caréque,",
+        "start": 17.11,
+        "end": 17.61
+      }
+    ]
+  },
+  {
+    "start": 17.63,
+    "end": 18.41,
+    "text": "eu tinha cabelo só",
+    "words": [
+      {
+        "word": "eu",
+        "start": 17.63,
+        "end": 17.69
+      },
+      {
+        "word": "tinha",
+        "start": 17.69,
+        "end": 17.83
+      },
+      {
+        "word": "cabelo",
+        "start": 17.83,
+        "end": 18.17
+      },
+      {
+        "word": "só",
+        "start": 18.17,
+        "end": 18.41
+      }
+    ]
+  },
+  {
+    "start": 18.41,
+    "end": 20.79,
+    "text": "aqui, só o uso",
+    "words": [
+      {
+        "word": "aqui,",
+        "start": 18.41,
+        "end": 18.69
+      },
+      {
+        "word": "só",
+        "start": 19.37,
+        "end": 20.23
+      },
+      {
+        "word": "o",
+        "start": 20.23,
+        "end": 20.47
+      },
+      {
+        "word": "uso",
+        "start": 20.47,
+        "end": 20.79
+      }
+    ]
+  },
+  {
+    "start": 20.79,
+    "end": 24.39,
+    "text": "mesmo. Passei uma semana",
+    "words": [
+      {
+        "word": "mesmo.",
+        "start": 20.79,
+        "end": 21.15
+      },
+      {
+        "word": "Passei",
+        "start": 22.43,
+        "end": 23.01
+      },
+      {
+        "word": "uma",
+        "start": 23.01,
+        "end": 23.63
+      },
+      {
+        "word": "semana",
+        "start": 23.63,
+        "end": 24.39
+      }
+    ]
+  },
+  {
+    "start": 24.39,
+    "end": 26.47,
+    "text": "deitado sem conseguir andar.",
+    "words": [
+      {
+        "word": "deitado",
+        "start": 24.39,
+        "end": 25.29
+      },
+      {
+        "word": "sem",
+        "start": 25.29,
+        "end": 25.53
+      },
+      {
+        "word": "conseguir",
+        "start": 25.53,
+        "end": 25.97
+      },
+      {
+        "word": "andar.",
+        "start": 25.97,
+        "end": 26.47
+      }
+    ]
+  },
+  {
+    "start": 30.83,
+    "end": 31.87,
+    "text": "Pessoal na clínica eu",
+    "words": [
+      {
+        "word": "Pessoal",
+        "start": 30.83,
+        "end": 31.29
+      },
+      {
+        "word": "na",
+        "start": 31.29,
+        "end": 31.41
+      },
+      {
+        "word": "clínica",
+        "start": 31.41,
+        "end": 31.75
+      },
+      {
+        "word": "eu",
+        "start": 31.75,
+        "end": 31.87
+      }
+    ]
+  },
+  {
+    "start": 31.87,
+    "end": 32.69,
+    "text": "vim trazer a comida.",
+    "words": [
+      {
+        "word": "vim",
+        "start": 31.87,
+        "end": 31.93
+      },
+      {
+        "word": "trazer",
+        "start": 31.93,
+        "end": 32.21
+      },
+      {
+        "word": "a",
+        "start": 32.21,
+        "end": 32.39
+      },
+      {
+        "word": "comida.",
+        "start": 32.39,
+        "end": 32.69
+      }
+    ]
+  },
+  {
+    "start": 34.49,
+    "end": 35.37,
+    "text": "Sabe qual foi a",
+    "words": [
+      {
+        "word": "Sabe",
+        "start": 34.49,
+        "end": 34.95
+      },
+      {
+        "word": "qual",
+        "start": 34.95,
+        "end": 35.09
+      },
+      {
+        "word": "foi",
+        "start": 35.09,
+        "end": 35.27
+      },
+      {
+        "word": "a",
+        "start": 35.27,
+        "end": 35.37
+      }
+    ]
+  },
+  {
+    "start": 35.37,
+    "end": 36.37,
+    "text": "primeira coisa que eu",
+    "words": [
+      {
+        "word": "primeira",
+        "start": 35.37,
+        "end": 35.59
+      },
+      {
+        "word": "coisa",
+        "start": 35.59,
+        "end": 36.07
+      },
+      {
+        "word": "que",
+        "start": 36.07,
+        "end": 36.27
+      },
+      {
+        "word": "eu",
+        "start": 36.27,
+        "end": 36.37
+      }
+    ]
+  },
+  {
+    "start": 36.37,
+    "end": 38.41,
+    "text": "fiz? Olha que eu",
+    "words": [
+      {
+        "word": "fiz?",
+        "start": 36.37,
+        "end": 36.67
+      },
+      {
+        "word": "Olha",
+        "start": 38.01,
+        "end": 38.19
+      },
+      {
+        "word": "que",
+        "start": 38.19,
+        "end": 38.37
+      },
+      {
+        "word": "eu",
+        "start": 38.37,
+        "end": 38.41
+      }
+    ]
+  },
+  {
+    "start": 38.41,
+    "end": 39.55,
+    "text": "entrei na clínica falando",
+    "words": [
+      {
+        "word": "entrei",
+        "start": 38.41,
+        "end": 38.63
+      },
+      {
+        "word": "na",
+        "start": 38.63,
+        "end": 38.79
+      },
+      {
+        "word": "clínica",
+        "start": 38.79,
+        "end": 39.19
+      },
+      {
+        "word": "falando",
+        "start": 39.19,
+        "end": 39.55
+      }
+    ]
+  },
+  {
+    "start": 39.55,
+    "end": 40.69,
+    "text": "prometendo pra mim e",
+    "words": [
+      {
+        "word": "prometendo",
+        "start": 39.55,
+        "end": 40.15
+      },
+      {
+        "word": "pra",
+        "start": 40.15,
+        "end": 40.37
+      },
+      {
+        "word": "mim",
+        "start": 40.37,
+        "end": 40.55
+      },
+      {
+        "word": "e",
+        "start": 40.55,
+        "end": 40.69
+      }
+    ]
+  },
+  {
+    "start": 40.69,
+    "end": 42.43,
+    "text": "pra Deus. Eu não",
+    "words": [
+      {
+        "word": "pra",
+        "start": 40.69,
+        "end": 40.79
+      },
+      {
+        "word": "Deus.",
+        "start": 40.79,
+        "end": 41.11
+      },
+      {
+        "word": "Eu",
+        "start": 42.17,
+        "end": 42.31
+      },
+      {
+        "word": "não",
+        "start": 42.31,
+        "end": 42.43
+      }
+    ]
+  },
+  {
+    "start": 42.43,
+    "end": 43.83,
+    "text": "recaio mais. Chega.",
+    "words": [
+      {
+        "word": "recaio",
+        "start": 42.43,
+        "end": 42.77
+      },
+      {
+        "word": "mais.",
+        "start": 42.77,
+        "end": 43.01
+      },
+      {
+        "word": "Chega.",
+        "start": 43.49,
+        "end": 43.83
+      }
+    ]
+  },
+  {
+    "start": 44.57,
+    "end": 45.37,
+    "text": "Essa é a última",
+    "words": [
+      {
+        "word": "Essa",
+        "start": 44.57,
+        "end": 44.91
+      },
+      {
+        "word": "é",
+        "start": 44.91,
+        "end": 45.03
+      },
+      {
+        "word": "a",
+        "start": 45.03,
+        "end": 45.09
+      },
+      {
+        "word": "última",
+        "start": 45.09,
+        "end": 45.37
+      }
+    ]
+  },
+  {
+    "start": 45.37,
+    "end": 45.91,
+    "text": "vez.",
+    "words": [
+      {
+        "word": "vez.",
+        "start": 45.37,
+        "end": 45.91
+      }
+    ]
+  }
+]
