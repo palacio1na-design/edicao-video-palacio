@@ -1,11 +1,20 @@
 import { Composition, staticFile } from "remotion";
 import { DemoShowreel } from "./DemoShowreel";
 import { Scene, myCompSchema } from "./Scene";
+import { Teste1Composition } from "./Teste1Composition";
 import { getMediaMetadata } from "./helpers/get-media-metadata";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="teste-1"
+        component={Teste1Composition}
+        fps={30}
+        durationInFrames={1468}
+        width={1080}
+        height={1920}
+      />
       <Composition
         id="DemoShowreel"
         component={DemoShowreel}

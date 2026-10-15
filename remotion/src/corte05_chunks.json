@@ -1,0 +1,884 @@
+[
+  {
+    "start": 0.7,
+    "end": 1.83,
+    "text": "Isso é muito forte.",
+    "words": [
+      {
+        "word": "Isso",
+        "start": 0.7,
+        "end": 1.12
+      },
+      {
+        "word": "é",
+        "start": 1.12,
+        "end": 1.18
+      },
+      {
+        "word": "muito",
+        "start": 1.18,
+        "end": 1.34
+      },
+      {
+        "word": "forte.",
+        "start": 1.34,
+        "end": 1.7
+      }
+    ]
+  },
+  {
+    "start": 1.88,
+    "end": 2.58,
+    "text": "Meu pai foi quem",
+    "words": [
+      {
+        "word": "Meu",
+        "start": 1.88,
+        "end": 1.98
+      },
+      {
+        "word": "pai",
+        "start": 1.98,
+        "end": 2.2
+      },
+      {
+        "word": "foi",
+        "start": 2.2,
+        "end": 2.38
+      },
+      {
+        "word": "quem",
+        "start": 2.38,
+        "end": 2.58
+      }
+    ]
+  },
+  {
+    "start": 2.58,
+    "end": 3.48,
+    "text": "tomou a decisão,",
+    "words": [
+      {
+        "word": "tomou",
+        "start": 2.58,
+        "end": 2.88
+      },
+      {
+        "word": "a",
+        "start": 2.88,
+        "end": 2.98
+      },
+      {
+        "word": "decisão,",
+        "start": 2.98,
+        "end": 3.48
+      }
+    ]
+  },
+  {
+    "start": 3.48,
+    "end": 4.66,
+    "text": "que fechou o apartamento",
+    "words": [
+      {
+        "word": "que",
+        "start": 3.48,
+        "end": 3.66
+      },
+      {
+        "word": "fechou",
+        "start": 3.66,
+        "end": 4.0
+      },
+      {
+        "word": "o",
+        "start": 4.0,
+        "end": 4.16
+      },
+      {
+        "word": "apartamento",
+        "start": 4.16,
+        "end": 4.66
+      }
+    ]
+  },
+  {
+    "start": 4.66,
+    "end": 5.74,
+    "text": "e falou assim,",
+    "words": [
+      {
+        "word": "e",
+        "start": 4.66,
+        "end": 4.9
+      },
+      {
+        "word": "falou",
+        "start": 4.9,
+        "end": 5.06
+      },
+      {
+        "word": "assim,",
+        "start": 5.06,
+        "end": 5.54
+      }
+    ]
+  },
+  {
+    "start": 6.46,
+    "end": 7.89,
+    "text": "já tentei de tudo.",
+    "words": [
+      {
+        "word": "já",
+        "start": 6.46,
+        "end": 6.74
+      },
+      {
+        "word": "tentei",
+        "start": 6.74,
+        "end": 7.16
+      },
+      {
+        "word": "de",
+        "start": 7.16,
+        "end": 7.3
+      },
+      {
+        "word": "tudo.",
+        "start": 7.3,
+        "end": 7.7
+      }
+    ]
+  },
+  {
+    "start": 7.94,
+    "end": 8.92,
+    "text": "Eu agora vou proteger",
+    "words": [
+      {
+        "word": "Eu",
+        "start": 7.94,
+        "end": 8.04
+      },
+      {
+        "word": "agora",
+        "start": 8.04,
+        "end": 8.3
+      },
+      {
+        "word": "vou",
+        "start": 8.3,
+        "end": 8.48
+      },
+      {
+        "word": "proteger",
+        "start": 8.48,
+        "end": 8.92
+      }
+    ]
+  },
+  {
+    "start": 8.92,
+    "end": 9.78,
+    "text": "a mim e a",
+    "words": [
+      {
+        "word": "a",
+        "start": 8.92,
+        "end": 9.24
+      },
+      {
+        "word": "mim",
+        "start": 9.24,
+        "end": 9.32
+      },
+      {
+        "word": "e",
+        "start": 9.32,
+        "end": 9.7
+      },
+      {
+        "word": "a",
+        "start": 9.7,
+        "end": 9.78
+      }
+    ]
+  },
+  {
+    "start": 9.78,
+    "end": 10.52,
+    "text": "sua mãe.",
+    "words": [
+      {
+        "word": "sua",
+        "start": 9.78,
+        "end": 10.0
+      },
+      {
+        "word": "mãe.",
+        "start": 10.0,
+        "end": 10.32
+      }
+    ]
+  },
+  {
+    "start": 11.54,
+    "end": 12.06,
+    "text": "E quando eu ia",
+    "words": [
+      {
+        "word": "E",
+        "start": 11.54,
+        "end": 11.62
+      },
+      {
+        "word": "quando",
+        "start": 11.62,
+        "end": 11.8
+      },
+      {
+        "word": "eu",
+        "start": 11.8,
+        "end": 11.94
+      },
+      {
+        "word": "ia",
+        "start": 11.94,
+        "end": 12.06
+      }
+    ]
+  },
+  {
+    "start": 12.06,
+    "end": 13.36,
+    "text": "lá, ele pagava uma",
+    "words": [
+      {
+        "word": "lá,",
+        "start": 12.06,
+        "end": 12.32
+      },
+      {
+        "word": "ele",
+        "start": 12.68,
+        "end": 12.8
+      },
+      {
+        "word": "pagava",
+        "start": 12.8,
+        "end": 13.18
+      },
+      {
+        "word": "uma",
+        "start": 13.18,
+        "end": 13.36
+      }
+    ]
+  },
+  {
+    "start": 13.36,
+    "end": 15.04,
+    "text": "viatura da polícia e",
+    "words": [
+      {
+        "word": "viatura",
+        "start": 13.36,
+        "end": 13.7
+      },
+      {
+        "word": "da",
+        "start": 13.7,
+        "end": 13.9
+      },
+      {
+        "word": "polícia",
+        "start": 13.9,
+        "end": 14.48
+      },
+      {
+        "word": "e",
+        "start": 14.48,
+        "end": 15.04
+      }
+    ]
+  },
+  {
+    "start": 15.04,
+    "end": 17.24,
+    "text": "os caros porrarem em",
+    "words": [
+      {
+        "word": "os",
+        "start": 15.04,
+        "end": 15.16
+      },
+      {
+        "word": "caros",
+        "start": 15.16,
+        "end": 15.48
+      },
+      {
+        "word": "porrarem",
+        "start": 15.48,
+        "end": 17.06
+      },
+      {
+        "word": "em",
+        "start": 17.06,
+        "end": 17.24
+      }
+    ]
+  },
+  {
+    "start": 17.24,
+    "end": 17.78,
+    "text": "mim, toda a vida,",
+    "words": [
+      {
+        "word": "mim,",
+        "start": 17.24,
+        "end": 17.24
+      },
+      {
+        "word": "toda",
+        "start": 17.4,
+        "end": 17.48
+      },
+      {
+        "word": "a",
+        "start": 17.48,
+        "end": 17.66
+      },
+      {
+        "word": "vida,",
+        "start": 17.66,
+        "end": 17.78
+      }
+    ]
+  },
+  {
+    "start": 17.84,
+    "end": 18.26,
+    "text": "e que eu falava",
+    "words": [
+      {
+        "word": "e",
+        "start": 17.84,
+        "end": 17.94
+      },
+      {
+        "word": "que",
+        "start": 17.94,
+        "end": 17.96
+      },
+      {
+        "word": "eu",
+        "start": 17.96,
+        "end": 18.02
+      },
+      {
+        "word": "falava",
+        "start": 18.02,
+        "end": 18.26
+      }
+    ]
+  },
+  {
+    "start": 18.26,
+    "end": 19.04,
+    "text": "que iria entrar e",
+    "words": [
+      {
+        "word": "que",
+        "start": 18.26,
+        "end": 18.44
+      },
+      {
+        "word": "iria",
+        "start": 18.44,
+        "end": 18.56
+      },
+      {
+        "word": "entrar",
+        "start": 18.56,
+        "end": 18.82
+      },
+      {
+        "word": "e",
+        "start": 18.82,
+        "end": 19.04
+      }
+    ]
+  },
+  {
+    "start": 19.04,
+    "end": 19.44,
+    "text": "ele vai.",
+    "words": [
+      {
+        "word": "ele",
+        "start": 19.04,
+        "end": 19.06
+      },
+      {
+        "word": "vai.",
+        "start": 19.06,
+        "end": 19.24
+      }
+    ]
+  },
+  {
+    "start": 20.08,
+    "end": 20.9,
+    "text": "Eu ficava na porta",
+    "words": [
+      {
+        "word": "Eu",
+        "start": 20.08,
+        "end": 20.2
+      },
+      {
+        "word": "ficava",
+        "start": 20.2,
+        "end": 20.52
+      },
+      {
+        "word": "na",
+        "start": 20.52,
+        "end": 20.68
+      },
+      {
+        "word": "porta",
+        "start": 20.68,
+        "end": 20.9
+      }
+    ]
+  },
+  {
+    "start": 20.9,
+    "end": 21.75,
+    "text": "do prédio lá,",
+    "words": [
+      {
+        "word": "do",
+        "start": 20.9,
+        "end": 21.14
+      },
+      {
+        "word": "prédio",
+        "start": 21.14,
+        "end": 21.46
+      },
+      {
+        "word": "lá,",
+        "start": 21.46,
+        "end": 21.62
+      }
+    ]
+  },
+  {
+    "start": 21.8,
+    "end": 23.24,
+    "text": "o cara vinha porrada,",
+    "words": [
+      {
+        "word": "o",
+        "start": 21.8,
+        "end": 21.8
+      },
+      {
+        "word": "cara",
+        "start": 21.8,
+        "end": 22.12
+      },
+      {
+        "word": "vinha",
+        "start": 22.12,
+        "end": 22.46
+      },
+      {
+        "word": "porrada,",
+        "start": 22.46,
+        "end": 23.04
+      }
+    ]
+  },
+  {
+    "start": 23.38,
+    "end": 24.38,
+    "text": "botava o pacorrer.",
+    "words": [
+      {
+        "word": "botava",
+        "start": 23.38,
+        "end": 23.48
+      },
+      {
+        "word": "o",
+        "start": 23.48,
+        "end": 23.62
+      },
+      {
+        "word": "pacorrer.",
+        "start": 23.62,
+        "end": 24.18
+      }
+    ]
+  },
+  {
+    "start": 24.72,
+    "end": 25.62,
+    "text": "Na terceira vez eu",
+    "words": [
+      {
+        "word": "Na",
+        "start": 24.72,
+        "end": 24.78
+      },
+      {
+        "word": "terceira",
+        "start": 24.78,
+        "end": 25.28
+      },
+      {
+        "word": "vez",
+        "start": 25.28,
+        "end": 25.46
+      },
+      {
+        "word": "eu",
+        "start": 25.46,
+        "end": 25.62
+      }
+    ]
+  },
+  {
+    "start": 25.62,
+    "end": 26.74,
+    "text": "passei uma semana morando",
+    "words": [
+      {
+        "word": "passei",
+        "start": 25.62,
+        "end": 25.92
+      },
+      {
+        "word": "uma",
+        "start": 25.92,
+        "end": 26.02
+      },
+      {
+        "word": "semana",
+        "start": 26.02,
+        "end": 26.34
+      },
+      {
+        "word": "morando",
+        "start": 26.34,
+        "end": 26.74
+      }
+    ]
+  },
+  {
+    "start": 26.74,
+    "end": 27.36,
+    "text": "na rua.",
+    "words": [
+      {
+        "word": "na",
+        "start": 26.74,
+        "end": 26.94
+      },
+      {
+        "word": "rua.",
+        "start": 26.94,
+        "end": 27.16
+      }
+    ]
+  },
+  {
+    "start": 27.7,
+    "end": 28.5,
+    "text": "Eu não voltei mais",
+    "words": [
+      {
+        "word": "Eu",
+        "start": 27.7,
+        "end": 27.82
+      },
+      {
+        "word": "não",
+        "start": 27.82,
+        "end": 27.94
+      },
+      {
+        "word": "voltei",
+        "start": 27.94,
+        "end": 28.3
+      },
+      {
+        "word": "mais",
+        "start": 28.3,
+        "end": 28.5
+      }
+    ]
+  },
+  {
+    "start": 28.5,
+    "end": 29.29,
+    "text": "que eu comendo,",
+    "words": [
+      {
+        "word": "que",
+        "start": 28.5,
+        "end": 28.7
+      },
+      {
+        "word": "eu",
+        "start": 28.7,
+        "end": 28.86
+      },
+      {
+        "word": "comendo,",
+        "start": 28.86,
+        "end": 29.2
+      }
+    ]
+  },
+  {
+    "start": 29.34,
+    "end": 32.3,
+    "text": "não voltei mais.",
+    "words": [
+      {
+        "word": "não",
+        "start": 29.34,
+        "end": 29.34
+      },
+      {
+        "word": "voltei",
+        "start": 29.34,
+        "end": 31.88
+      },
+      {
+        "word": "mais.",
+        "start": 31.88,
+        "end": 32.1
+      }
+    ]
+  },
+  {
+    "start": 33.34,
+    "end": 34.31,
+    "text": "É isso,",
+    "words": [
+      {
+        "word": "É",
+        "start": 33.34,
+        "end": 33.9
+      },
+      {
+        "word": "isso,",
+        "start": 33.9,
+        "end": 34.18
+      }
+    ]
+  },
+  {
+    "start": 34.36,
+    "end": 34.9,
+    "text": "não é meu irmão?",
+    "words": [
+      {
+        "word": "não",
+        "start": 34.36,
+        "end": 34.38
+      },
+      {
+        "word": "é",
+        "start": 34.38,
+        "end": 34.46
+      },
+      {
+        "word": "meu",
+        "start": 34.46,
+        "end": 34.58
+      },
+      {
+        "word": "irmão?",
+        "start": 34.58,
+        "end": 34.7
+      }
+    ]
+  },
+  {
+    "start": 35.9,
+    "end": 36.68,
+    "text": "É isso.",
+    "words": [
+      {
+        "word": "É",
+        "start": 35.9,
+        "end": 36.02
+      },
+      {
+        "word": "isso.",
+        "start": 36.02,
+        "end": 36.48
+      }
+    ]
+  },
+  {
+    "start": 40.4,
+    "end": 41.78,
+    "text": "É da quatro horas",
+    "words": [
+      {
+        "word": "É",
+        "start": 40.4,
+        "end": 40.96
+      },
+      {
+        "word": "da",
+        "start": 40.96,
+        "end": 41.08
+      },
+      {
+        "word": "quatro",
+        "start": 41.08,
+        "end": 41.36
+      },
+      {
+        "word": "horas",
+        "start": 41.36,
+        "end": 41.78
+      }
+    ]
+  },
+  {
+    "start": 41.78,
+    "end": 43.28,
+    "text": "aí, vocês vão agora,",
+    "words": [
+      {
+        "word": "aí,",
+        "start": 41.78,
+        "end": 42.16
+      },
+      {
+        "word": "vocês",
+        "start": 42.32,
+        "end": 42.56
+      },
+      {
+        "word": "vão",
+        "start": 42.56,
+        "end": 42.74
+      },
+      {
+        "word": "agora,",
+        "start": 42.74,
+        "end": 43.08
+      }
+    ]
+  },
+  {
+    "start": 43.68,
+    "end": 44.66,
+    "text": "não sei se vai",
+    "words": [
+      {
+        "word": "não",
+        "start": 43.68,
+        "end": 44.24
+      },
+      {
+        "word": "sei",
+        "start": 44.24,
+        "end": 44.36
+      },
+      {
+        "word": "se",
+        "start": 44.36,
+        "end": 44.52
+      },
+      {
+        "word": "vai",
+        "start": 44.52,
+        "end": 44.66
+      }
+    ]
+  },
+  {
+    "start": 44.66,
+    "end": 45.94,
+    "text": "comer, vai bater aquele",
+    "words": [
+      {
+        "word": "comer,",
+        "start": 44.66,
+        "end": 45.02
+      },
+      {
+        "word": "vai",
+        "start": 45.16,
+        "end": 45.32
+      },
+      {
+        "word": "bater",
+        "start": 45.32,
+        "end": 45.62
+      },
+      {
+        "word": "aquele",
+        "start": 45.62,
+        "end": 45.94
+      }
+    ]
+  },
+  {
+    "start": 45.94,
+    "end": 47.74,
+    "text": "racha, racha da clínica,",
+    "words": [
+      {
+        "word": "racha,",
+        "start": 45.94,
+        "end": 46.46
+      },
+      {
+        "word": "racha",
+        "start": 46.46,
+        "end": 47.1
+      },
+      {
+        "word": "da",
+        "start": 47.1,
+        "end": 47.24
+      },
+      {
+        "word": "clínica,",
+        "start": 47.24,
+        "end": 47.74
+      }
+    ]
+  },
+  {
+    "start": 47.74,
+    "end": 48.68,
+    "text": "é fantástico.",
+    "words": [
+      {
+        "word": "é",
+        "start": 47.74,
+        "end": 47.88
+      },
+      {
+        "word": "fantástico.",
+        "start": 47.88,
+        "end": 48.68
+      }
+    ]
+  }
+]
