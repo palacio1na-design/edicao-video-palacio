@@ -5,6 +5,7 @@ import { Corte2CorrigidoComposition } from "./Corte2CorrigidoComposition";
 import { Corte2CinematicoComposition } from "./Corte2CinematicoComposition";
 import { CreativeMasterComposition } from "./creative-engine/CreativeMasterComposition";
 import { IntelligentMontageComposition } from "./creative-engine/IntelligentMontageComposition";
+import { CleuzaCananComposition } from "./creative-engine/CleuzaCananComposition";
 import { DemoShowreel } from "./DemoShowreel";
 import { Scene, myCompSchema } from "./Scene";
 import { Teste1Composition } from "./Teste1Composition";
@@ -14,6 +15,22 @@ import { getMediaMetadata } from "./helpers/get-media-metadata";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="corte-2-cleuza-canan"
+        component={CleuzaCananComposition}
+        fps={30}
+        durationInFrames={851}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          headline: "POR QUE VOCÊ NÃO CONSEGUE DIZER NÃO?",
+          category: "ACOLHIMENTO FAMILIAR",
+          videoSrc: "corte2_video.mp4",
+          audioSrc: "corte2_audio.wav",
+          musicSrc: "versao_b_soundtrack.wav",
+          musicVolume: 0.07,
+        }}
+      />
       <Composition
         id="corte-2-intelligent-montage"
         component={IntelligentMontageComposition}
