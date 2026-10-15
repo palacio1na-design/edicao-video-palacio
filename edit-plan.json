@@ -1,0 +1,108 @@
+{
+  "versao_a_cinematica": {
+    "version": "6.0",
+    "source_video": "/Users/palacio.pro/Downloads/Corte_04_Amor_Firme_Meu_Pai_Fechou_o_Apartamento_SEM_LEGENDA.mp4",
+    "target_duration_sec": 38.8,
+    "style": "cinematic",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "color_grading": {
+      "active": true,
+      "filter_chain": "eq=contrast=1.12:brightness=-0.01:saturation=0.94,colorbalance=rs=-0.02:gs=0.04:bs=0.01:rm=0.03:gm=0.02:bm=-0.02:rh=0.02:gh=0.01:bh=-0.01,vignette=angle=PI/4"
+    },
+    "retention_zooms": [
+      {
+        "start_sec": 0.0,
+        "end_sec": 3.8,
+        "scale": 1.05,
+        "focus": "center",
+        "type": "opening_establishing",
+        "justification": "Enquadramento inicial estável para fixação do gancho."
+      },
+      {
+        "start_sec": 3.8,
+        "end_sec": 12.5,
+        "scale": 1.15,
+        "focus": "upper_third",
+        "type": "punch_in_drama",
+        "justification": "Aproximação intensa no rosto ao falar que o pai fechou o apartamento."
+      },
+      {
+        "start_sec": 12.5,
+        "end_sec": 23.5,
+        "scale": 1.1,
+        "focus": "center",
+        "type": "medium_tension",
+        "justification": "Respiração visual durante relato da viatura e da resistência."
+      },
+      {
+        "start_sec": 23.5,
+        "end_sec": 36.5,
+        "scale": 1.18,
+        "focus": "eyes",
+        "type": "peak_intimacy",
+        "justification": "Punch-in máximo de intimidade: uma semana morando na rua (fundo de poço)."
+      },
+      {
+        "start_sec": 36.5,
+        "end_sec": 39.0,
+        "scale": 1.05,
+        "focus": "center",
+        "type": "resolution_pull_out",
+        "justification": "Recuo para o fechamento reflexivo: 'É isso, meu irmão'."
+      }
+    ],
+    "sound_plan_ref": "sound-plan.json"
+  },
+  "versao_b_dinamica": {
+    "version": "6.0",
+    "source_video": "/Users/palacio.pro/Downloads/Corte_04_Amor_Firme_Meu_Pai_Fechou_o_Apartamento_SEM_LEGENDA.mp4",
+    "target_duration_sec": 38.8,
+    "style": "motion",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "color_grading": {
+      "active": true,
+      "filter_chain": "eq=contrast=1.15:brightness=0.01:saturation=1.08,colorbalance=rm=0.02:gm=0.01:bm=-0.02:rh=0.03:gh=0.02:bh=-0.02,vignette=angle=PI/5"
+    },
+    "retention_zooms": [
+      {
+        "start_sec": 0.0,
+        "end_sec": 3.5,
+        "scale": 1.05,
+        "type": "hook"
+      },
+      {
+        "start_sec": 3.5,
+        "end_sec": 8.0,
+        "scale": 1.16,
+        "type": "punch_in"
+      },
+      {
+        "start_sec": 8.0,
+        "end_sec": 14.0,
+        "scale": 1.08,
+        "type": "reset"
+      },
+      {
+        "start_sec": 14.0,
+        "end_sec": 23.0,
+        "scale": 1.18,
+        "type": "punch_in"
+      },
+      {
+        "start_sec": 23.0,
+        "end_sec": 30.0,
+        "scale": 1.1,
+        "type": "reset"
+      },
+      {
+        "start_sec": 30.0,
+        "end_sec": 39.0,
+        "scale": 1.2,
+        "type": "climax"
+      }
+    ],
+    "sound_plan_ref": "sound-plan.json"
+  }
+}

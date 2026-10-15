@@ -6,11 +6,16 @@ description: >-
   TikTok ou YouTube Shorts, animações gráficas com Remotion/Three.js, ou renderização de alta precisão.
 ---
 
-# Palácio Vídeos 2.0 — Sistema Audiovisual Profissional
+# Palácio Vídeos 6.0 — Superpoderes de Edição, Design de Som e Pós-Produção
 
-O **PALÁCIO VÍDEOS 2.0** é o ecossistema audiovisual e motor de motion design programático oficial da marca **Palácio.pro** e **Palácio Acolhimento**.
+O **PALÁCIO VÍDEOS 6.0** é a estrutura profissional de pós-produção cinematográfica oficial da marca **Palácio.pro** e **Palácio Acolhimento**.
 
-Ele combina inteligência editorial de ponta, alinhamento acústico palavra por palavra, motor 3D/Motion Design com Remotion e Three.js, e integração para acabamento no CapCut.
+Ele integra 5 diretores operando em conjunto com o Gemini:
+1. **PALÁCIO SMART EDITOR**: Orquestrador central de cortes, ritmo e montagem.
+2. **PALÁCIO SOUND DIRECTOR**: Masterização acústica no Spotify Pedalboard, sound design narrativo e mixagem EBU R128 (-14.0 LUFS).
+3. **PALÁCIO RETENTION DIRECTOR**: Punch-ins de intimidade, variação de escala e retenção de audiência.
+4. **PALÁCIO CINEMATIC DIRECTOR**: Color grading de cinema, sombras esmeralda/teal e vinheta de profundidade.
+5. **PALÁCIO QUALITY DIRECTOR**: Autocrítica rigorosa de clipping, true peak (-1.0 dBFS) e conformidade para Reels/Shorts.
 
 ---
 
@@ -32,23 +37,32 @@ Ele combina inteligência editorial de ponta, alinhamento acústico palavra por 
 O repositório está localizado em:
 `~/.gemini/config/skills/edicao-video-palacio/`
 
-### A. Motor de Motion Design (Remotion + Three.js)
+### A. Palácio Cinematic Sound Library & Sound Director
+- **Biblioteca Local:** `assets/sound-library/` (48 kHz / 24-bit PCM WAV, 100% livre de royalties).
+- **Categorias:** `01_impactos`, `02_transicoes`, `03_ambientes`, `04_acontecimentos`, `05_cinematograficos`, `06_motion_design`, `07_emocionais`.
+- **Masterização Vocal:** Highpass 82Hz, NoiseGate -46dB, EQ Paramétrico, Compressor 3.2:1, Limiter TruePeak -1.0 dBFS via Spotify Pedalboard.
+- **Mixagem:** Multi-track com ducking automático da trilha sonora e alinhamento semântico de SFX.
+
+### B. Motor de Motion Design (Remotion + Three.js)
 Localizado em `edicao-video-palacio/remotion/`:
 - **Framework:** Remotion `4.0.535` com `@remotion/three` e Three.js `0.178.0`
 - **Componentes Centrais (`src/motion-library/`):**
   - `PalacioTheme.ts`: Design tokens, paleta e molas cinematográficas.
   - `ParallaxBackground.tsx`: Fundo dinâmico com orbes orgânicos esmeralda/dourado e grid de perspectiva.
   - `CinematicTitle.tsx`: Tipografia cinética escalonada com destaque em dourado.
+  - `DynamicCaptions.tsx`: Legendas karaoke dinâmicas com highlight dourado sincronizado por palavra.
+  - `ViralHeader.tsx`: Header em glassmorphism com barra linear de retenção.
   - `ThreeDStepsScene.tsx`: Cena 3D com ThreeCanvas e tokens geométricos rotativos (Torus Knot, Icosaedro e Octaedro).
   - `KineticStepCard.tsx`: Cards 2.5D com glassmorphism, indicador de etapas e safe zone vertical.
   - `PalacioOutro.tsx`: Encerramento com brasão P em relevo dourado, lema da recuperação e CTA Palácio Acolhimento.
-  - `DemoShowreel.tsx`: Composição de 15s (1080x1920) demonstrando o fluxo completo.
 
-### B. Motor Python de IA & Transcrição
-Localizado em `edicao-video-palacio/core/`:
+### C. Motor Python de IA & Transcrição (`core/`)
+- `smart_editor.py`: Execução e orquestração de planos `edit-plan.json` e `sound-plan.json`.
+- `sound_director.py`: Processamento de áudio via Spotify Pedalboard e mixagem multitrack.
+- `retention_director.py`: Pacing e punch-ins dinâmicos de escala.
+- `cinematic_director.py`: Color grading de cinema e profundidade.
+- `quality_director.py`: Auditoria técnica EBU R128 (-14 LUFS, TruePeak <= -1.0 dBFS).
 - `audio_aligner.py`: Extração WAV, Whisper word-timestamps e corte exato em vales de silêncio (VAD).
-- `editorial_analyzer.py`: Identificação de ganchos virais, storytelling e geração de metadados SEO.
-- `video_processor.py`: Recorte 9:16 (1080x1920), normalização EBU R128 (-14 LUFS) e render via FFmpeg.
 - `capcut_bridge.py`: Exportação para projetos compatíveis com CapCut Desktop no macOS.
 
 ### C. Skills Oficiais do Remotion Integradas

@@ -1,0 +1,186 @@
+{
+  "versao_a_soundtrack_and_sfx": {
+    "version": "6.0",
+    "style": "cinematic",
+    "total_duration_sec": 38.8,
+    "sample_rate": 48000,
+    "voice_track": {
+      "priority": 1,
+      "nominal_gain_db": 0.0,
+      "chain": [
+        "Highpass 82Hz",
+        "NoiseGate -46dB",
+        "EQ Paramétrico",
+        "Compressor 3.2:1",
+        "Limiter -1dB"
+      ]
+    },
+    "music_track": {
+      "active": true,
+      "ducking": {
+        "active_speech_db": -24.0,
+        "pause_speech_db": -15.0,
+        "fade_time_ms": 300
+      }
+    },
+    "sfx_tracks": [
+      {
+        "id": "door_firm_close",
+        "name": "Porta Fechando com Tranca",
+        "file": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/04_acontecimentos/door_firm_close.wav",
+        "start_time": 3.08,
+        "duration": 1.5,
+        "volume_db": -13.0,
+        "category": "acontecimento",
+        "justification": "Fechamento literal e metafórico da porta pelo pai (Amor Exigente)."
+      },
+      {
+        "id": "tension_drone_c_minor",
+        "name": "Drone de Tensão e Dor",
+        "file": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/05_cinematograficos/tension_drone_c_minor.wav",
+        "start_time": 6.94,
+        "duration": 5.0,
+        "volume_db": -18.0,
+        "category": "cinematografico",
+        "justification": "Dramatismo e dor familiar diante da exaustão da família."
+      },
+      {
+        "id": "distant_police_siren",
+        "name": "Sirene Distante de Viatura",
+        "file": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/04_acontecimentos/distant_police_siren.wav",
+        "start_time": 13.16,
+        "duration": 4.5,
+        "volume_db": -19.0,
+        "category": "acontecimento",
+        "justification": "Sirene distante de viatura contextualizando o confronto e o limite imposto."
+      },
+      {
+        "id": "night_city_wind",
+        "name": "Vento e Ar da Noite",
+        "file": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/03_ambientes/night_city_wind.wav",
+        "start_time": 26.02,
+        "duration": 6.0,
+        "volume_db": -20.0,
+        "category": "ambiente",
+        "justification": "Desolação e solidão de uma semana morando na rua (fundo de poço)."
+      },
+      {
+        "id": "hope_resolution_chord",
+        "name": "Acorde de Resolução e Esperança",
+        "file": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/05_cinematograficos/hope_resolution_chord.wav",
+        "start_time": 34.88,
+        "duration": 4.5,
+        "volume_db": -15.0,
+        "category": "emocional",
+        "justification": "Acorde harmônico de resolução, esperança e despertar da sobriedade."
+      }
+    ],
+    "master_target": {
+      "integrated_lufs": -14.0,
+      "true_peak_dbfs": -1.0,
+      "standards": "EBU R128 / Apple Podcasts / Instagram Reels"
+    }
+  },
+  "versao_b_soundtrack_and_sfx": {
+    "version": "6.0",
+    "style": "motion",
+    "total_duration_sec": 38.8,
+    "sample_rate": 48000,
+    "voice_track": {
+      "priority": 1,
+      "nominal_gain_db": 0.0,
+      "chain": [
+        "Highpass 82Hz",
+        "NoiseGate -46dB",
+        "EQ Paramétrico",
+        "Compressor 3.2:1",
+        "Limiter -1dB"
+      ]
+    },
+    "music_track": {
+      "active": true,
+      "ducking": {
+        "active_speech_db": -24.0,
+        "pause_speech_db": -15.0,
+        "fade_time_ms": 300
+      }
+    },
+    "sfx_tracks": [
+      {
+        "id": "card_glass_pop",
+        "name": "Pop de Card e Badge 2.5D",
+        "file": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/06_motion_design/card_glass_pop.wav",
+        "start_time": 0.4,
+        "duration": 0.35,
+        "volume_db": -16.0,
+        "category": "motion_design",
+        "justification": "Entrada de card visual e gancho principal."
+      },
+      {
+        "id": "door_firm_close",
+        "name": "Porta Fechando com Tranca",
+        "file": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/04_acontecimentos/door_firm_close.wav",
+        "start_time": 3.08,
+        "duration": 1.5,
+        "volume_db": -13.0,
+        "category": "acontecimento",
+        "justification": "Fechamento literal e metafórico da porta pelo pai (Amor Exigente)."
+      },
+      {
+        "id": "tension_drone_c_minor",
+        "name": "Drone de Tensão e Dor",
+        "file": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/05_cinematograficos/tension_drone_c_minor.wav",
+        "start_time": 6.94,
+        "duration": 5.0,
+        "volume_db": -18.0,
+        "category": "cinematografico",
+        "justification": "Dramatismo e dor familiar diante da exaustão da família."
+      },
+      {
+        "id": "distant_police_siren",
+        "name": "Sirene Distante de Viatura",
+        "file": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/04_acontecimentos/distant_police_siren.wav",
+        "start_time": 13.16,
+        "duration": 4.5,
+        "volume_db": -19.0,
+        "category": "acontecimento",
+        "justification": "Sirene distante de viatura contextualizando o confronto e o limite imposto."
+      },
+      {
+        "id": "night_city_wind",
+        "name": "Vento e Ar da Noite",
+        "file": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/03_ambientes/night_city_wind.wav",
+        "start_time": 26.02,
+        "duration": 6.0,
+        "volume_db": -20.0,
+        "category": "ambiente",
+        "justification": "Desolação e solidão de uma semana morando na rua (fundo de poço)."
+      },
+      {
+        "id": "hope_resolution_chord",
+        "name": "Acorde de Resolução e Esperança",
+        "file": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/05_cinematograficos/hope_resolution_chord.wav",
+        "start_time": 34.88,
+        "duration": 4.5,
+        "volume_db": -15.0,
+        "category": "emocional",
+        "justification": "Acorde harmônico de resolução, esperança e despertar da sobriedade."
+      },
+      {
+        "id": "cinematic_whoosh",
+        "name": "Whoosh de Câmera Estéreo",
+        "file": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/02_transicoes/cinematic_whoosh.wav",
+        "start_time": 3.6,
+        "duration": 1.2,
+        "volume_db": -18.0,
+        "category": "transicao",
+        "justification": "Transição suave de saída do título de abertura."
+      }
+    ],
+    "master_target": {
+      "integrated_lufs": -14.0,
+      "true_peak_dbfs": -1.0,
+      "standards": "EBU R128 / Apple Podcasts / Instagram Reels"
+    }
+  }
+}

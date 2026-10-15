@@ -17,21 +17,25 @@ Esta skill capacita o assistente a operar como Engenheiro Audiovisual Sênior e 
 
 ---
 
-## Arquitetura do Sistema
+## Arquitetura do Sistema (v6.0 — Superpoderes de Edição e Design de Som)
 
 ```
 edicao-video-palacio/
 ├── SKILL.md                         # Diretrizes, arquétipos e documentação
-├── cli.py                           # CLI unificada (analyze, render)
+├── PALACIO-SOUND-DIRECTOR.md        # Manual oficial de design de som e engenharia de áudio
+├── edit-plan.json                   # Plano executável de cortes, escalas e cor
+├── sound-plan.json                  # Plano executável de trilha, SFX e ducking
+├── assets/sound-library/            # Palácio Cinematic Sound Library (48kHz/24-bit)
 ├── core/
+│   ├── smart_editor.py             # PALÁCIO SMART EDITOR (Orquestrador Central)
+│   ├── sound_director.py           # PALÁCIO SOUND DIRECTOR (Pedalboard, SFX e EBU R128)
+│   ├── retention_director.py       # PALÁCIO RETENTION DIRECTOR (Pacing e punch-ins)
+│   ├── cinematic_director.py       # PALÁCIO CINEMATIC DIRECTOR (Color grading e vinheta)
+│   ├── quality_director.py         # PALÁCIO QUALITY DIRECTOR (Autocrítica e auditoria)
 │   ├── audio_aligner.py            # Extração WAV, Whisper word-timestamps, VAD silence snapping
 │   ├── editorial_analyzer.py       # Mineração dos momentos de ouro, ganchos e SEO
-│   ├── video_processor.py          # Render 9:16 (1080x1920), EBU R128 (-14 LUFS), VideoToolbox
-│   ├── capcut_bridge.py            # Integração segura com CapCut Desktop (sem GUI frágil)
-│   └── review_html.py              # Central de revisão HTML interativa com players e cópia de SEO
-└── scripts/
-    ├── cut_and_export_916.swift    # Utilitário legado AVFoundation
-    └── create_capcut_project.py    # Injetor legado CapCut
+│   └── capcut_bridge.py            # Integração segura com CapCut Desktop
+└── remotion/                        # Motor de Motion Design 2.0 (React + Three.js)
 ```
 
 ---
