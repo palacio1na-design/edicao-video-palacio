@@ -1,6 +1,8 @@
 import { Composition, staticFile } from "remotion";
 import { Corte1Composition } from "./Corte1Composition";
 import { Corte2Composition } from "./Corte2Composition";
+import { Corte2CorrigidoComposition } from "./Corte2CorrigidoComposition";
+import { Corte2CinematicoComposition } from "./Corte2CinematicoComposition";
 import { DemoShowreel } from "./DemoShowreel";
 import { Scene, myCompSchema } from "./Scene";
 import { Teste1Composition } from "./Teste1Composition";
@@ -10,6 +12,22 @@ import { getMediaMetadata } from "./helpers/get-media-metadata";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="corte-2-corrigido"
+        component={Corte2CorrigidoComposition}
+        fps={30}
+        durationInFrames={851}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="corte-2-cinematico"
+        component={Corte2CinematicoComposition}
+        fps={30}
+        durationInFrames={851}
+        width={1080}
+        height={1920}
+      />
       <Composition
         id="corte-1-55kg"
         component={Corte1Composition}

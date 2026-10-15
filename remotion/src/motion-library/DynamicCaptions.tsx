@@ -17,7 +17,9 @@ export interface SubtitleChunk {
 
 export const DynamicCaptions: React.FC<{
   chunks: SubtitleChunk[];
-}> = ({ chunks }) => {
+  bottomPx?: number; // Distância do chão (default 540px = Y central aprox 1300px)
+  maxBoxWidth?: number;
+}> = ({ chunks, bottomPx = 540, maxBoxWidth = 860 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const currentTime = frame / fps;
@@ -38,8 +40,9 @@ export const DynamicCaptions: React.FC<{
         flexDirection: "column",
         justifyContent: "flex-end",
         alignItems: "center",
-        paddingBottom: "240px",
+        paddingBottom: `${bottomPx}px`, // Elevado para respeitar a Zona Segura das redes
         pointerEvents: "none",
+        zIndex: 55,
       }}
     >
       <div
@@ -48,48 +51,48 @@ export const DynamicCaptions: React.FC<{
           flexWrap: "wrap",
           justifyContent: "center",
           alignItems: "center",
-          gap: "10px 16px",
-          maxWidth: "920px",
-          backgroundColor: "rgba(6, 10, 8, 0.78)",
-          backdropFilter: "blur(18px)",
-          WebkitBackdropFilter: "blur(18px)",
+          gap: "8px 14px",
+          maxWidth: `${maxBoxWidth}px`,
+          backgroundColor: "rgba(6, 10, 8, 0.85)",
+          backdropFilter: "blur(20px)",
+          WebkitBackdropFilter: "blur(20px)",
           border: `1.5px solid ${PALACIO_THEME.colors.borderGlass}`,
           boxShadow:
-            "0 15px 40px rgba(0, 0, 0, 0.85), 0 0 25px rgba(212, 175, 55, 0.2)",
-          borderRadius: "26px",
-          padding: "20px 36px",
+            "0 15px 40px rgba(0, 0, 0, 0.9), 0 0 20px rgba(212, 175, 55, 0.15)",
+          borderRadius: "24px",
+          padding: "16px 32px",
           textAlign: "center",
         }}
       >
         {activeChunk.words.map((w, idx) => {
           const isActive =
-            currentTime >= w.start - 0.05 && currentTime <= w.end + 0.05;
-          const isSpoken = currentTime > w.end + 0.05;
+            currentTime >= w.start - 0.04 && currentTime <= w.end + 0.04;
+          const isSpoken = currentTime > w.end + 0.04;
 
           const color = isActive
             ? PALACIO_THEME.colors.gold
             : isSpoken
             ? PALACIO_THEME.colors.textWhite
-            : "rgba(240, 246, 252, 0.55)";
+            : "rgba(240, 246, 252, 0.60)";
 
-          const transform = isActive ? "scale(1.12)" : "scale(1.0)";
+          const transform = isActive ? "scale(1.10)" : "scale(1.0)";
           const textShadow = isActive
-            ? `0 0 25px rgba(212, 175, 55, 0.9), 0 0 50px rgba(212, 175, 55, 0.4)`
-            : "0 2px 6px rgba(0, 0, 0, 0.8)";
+            ? `0 0 20px rgba(212, 175, 55, 0.95), 0 0 40px rgba(212, 175, 55, 0.35)`
+            : "0 2px 6px rgba(0, 0, 0, 0.9)";
 
           return (
             <span
               key={idx}
               style={{
                 fontFamily: PALACIO_THEME.typography.fontFamily,
-                fontSize: "46px",
+                fontSize: "44px",
                 fontWeight: 900,
                 color,
                 transform,
                 textShadow,
-                transition: "all 0.08s ease-out",
+                transition: "all 0.06s ease-out",
                 display: "inline-block",
-                margin: "4px 10px",
+                margin: "4px 8px",
                 letterSpacing: "0.5px",
               }}
             >

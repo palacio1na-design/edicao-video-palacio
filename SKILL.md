@@ -5,82 +5,109 @@ description: >-
   TikTok ou YouTube Shorts, análise de palestras/lives do canal Palácio Acolhimento, ou automação no CapCut Desktop.
 ---
 
-# Edição Vídeo Palácio.pro — Diretor Audiovisual & Editor Sênior de Alta Precisão
+# Edição Vídeo Palácio — Palácio Vídeos Pro 7.0 (Integração Definitiva dos Motores)
 
-Esta skill capacita o assistente a operar como Engenheiro Audiovisual Sênior e Diretor de Edição de Marcelo Palácio, integrando soluções modernas dos ecossistemas **AutoBroll**, **SynthCut** e **AI Video Editor**, com processamento 100% local no macOS Apple Silicon.
-
-## Princípios Fundamentais (Invioláveis)
-1. **Zero Timestamps Imaginários:** Nenhum corte é realizado por estimativa ou intuição da IA. Todo timestamp deriva da análise do áudio real.
-2. **Alinhamento a Nível de Palavra:** Transcrição acústica sincronizada palavra por palavra via Whisper com `word_timestamps=True`.
-3. **Acoustic Silence Snapping (VAD):** O início e o fim de cada corte são cravados cirurgicamente nos vales de silêncio detectados pelo FFmpeg (`silencedetect`), garantindo que nenhuma sílaba seja decepada e que as pausas emocionais e o respiro natural sejam preservados.
-4. **Verdade e Autenticidade:** Edições sem poluição visual, sem sensacionalismo vazio e sem B-rolls que desvirtuem a seriedade da recuperação e do acolhimento familiar.
+Esta skill capacita o assistente a operar como **Engenheiro Audiovisual Principal e Diretor de Edição de Marcelo Palácio**, conectando os 5 motores de inteligência editorial, cinema, retenção, som e qualidade com processamento 100% local no macOS Apple Silicon.
 
 ---
 
-## Arquitetura do Sistema (v6.0 — Superpoderes de Edição e Design de Som)
+## 1. Identidade Visual Obrigatória (Inviolável)
+
+> [!IMPORTANT]
+> **REGRA DE OURO:** A marca pública oficial de todos os vídeos é **PALÁCIO ACOLHIMENTO**.
+> - **Nome:** `Palácio Acolhimento`
+> - **Instagram / Redes:** `@palacioacolhimento`
+> - **Website:** `palacioacolhimento.com.br`
+> - **Monograma:** "P" Dourado de Acolhimento Familiar.
+> 
+> É **terminantemente proibido** utilizar `Palácio.pro`, `@palacio.pro`, `Palácio Ponto Pro` ou `Palácio AI` em qualquer elemento visível ou audível do vídeo (títulos, legendas, rodapés, créditos ou marcas d'água). `Palácio.pro` identifica apenas o ecossistema técnico do repositório/workspace.
+
+---
+
+## 2. Princípios Fundamentais de Produção
+
+1. **Zero Timestamps Imaginários:** Todo corte é derivado do áudio real mapeado acusticamente.
+2. **Sincronia Palavra por Palavra:** Transcrição via Whisper com `word_timestamps=True` e sanitização de gírias/ritmo.
+3. **Acoustic Silence Snapping (VAD):** Cortes cravados nos vales de silêncio reais pelo FFmpeg, preservando respiros e peso emocional.
+4. **Respeito às Zonas Seguras das Redes Sociais:** Legendas e títulos nunca competem com a UI nativa de Reels, TikTok ou Shorts.
+5. **Autenticidade Emocional:** Sem poluição de IA barata, sem marcas d'água de modelos generativos (ex: logotipo Veo). O foco é a verdade de Marcelo e o acolhimento à família.
+
+---
+
+## 3. Arquitetura dos 5 Motores Integrados (`core/pipeline.py`)
 
 ```
 edicao-video-palacio/
-├── SKILL.md                         # Diretrizes, arquétipos e documentação
-├── PALACIO-SOUND-DIRECTOR.md        # Manual oficial de design de som e engenharia de áudio
-├── edit-plan.json                   # Plano executável de cortes, escalas e cor
-├── sound-plan.json                  # Plano executável de trilha, SFX e ducking
-├── assets/sound-library/            # Palácio Cinematic Sound Library (48kHz/24-bit)
+├── SKILL.md                            # Diretrizes oficiais e fluxo operacional
+├── PALACIO-VIDEOS-INTEGRACAO-7.0.md    # Relatório executivo da integração dos motores
+├── PALACIO-SOUND-DIRECTOR.md           # Manual de engenharia de áudio e Pedalboard
 ├── core/
-│   ├── smart_editor.py             # PALÁCIO SMART EDITOR (Orquestrador Central)
-│   ├── sound_director.py           # PALÁCIO SOUND DIRECTOR (Pedalboard, SFX e EBU R128)
-│   ├── retention_director.py       # PALÁCIO RETENTION DIRECTOR (Pacing e punch-ins)
-│   ├── cinematic_director.py       # PALÁCIO CINEMATIC DIRECTOR (Color grading e vinheta)
-│   ├── quality_director.py         # PALÁCIO QUALITY DIRECTOR (Autocrítica e auditoria)
-│   ├── audio_aligner.py            # Extração WAV, Whisper word-timestamps, VAD silence snapping
-│   ├── editorial_analyzer.py       # Mineração dos momentos de ouro, ganchos e SEO
-│   └── capcut_bridge.py            # Integração segura com CapCut Desktop
-└── remotion/                        # Motor de Motion Design 2.0 (React + Three.js)
+│   ├── pipeline.py                    # MASTER PIPELINE (Orquestrador Central dos 5 Motores)
+│   ├── brand_config.py                # Gestor de marca e detector anti-regressão
+│   ├── social_safe_zones.py           # Calculador e validador de zonas seguras das redes
+│   ├── smart_editor.py                # Motor 1: VAD acústico, alinhamento e cortes
+│   ├── retention_director.py          # Motor 2: Pacing, ganchos e curvas de câmera virtual
+│   ├── cinematic_director.py          # Motor 3: Color grading cinema e curadoria de B-roll
+│   ├── sound_director.py              # Motor 4: Cadeia vocal Spotify Pedalboard e EBU R128 (-14 LUFS)
+│   ├── quality_director.py            # Motor 5: Auditoria determinística e inspeção de frames
+│   ├── audio_aligner.py               # Extração de áudio 16kHz e Whisper word-timestamps
+│   ├── editorial_analyzer.py          # Mineração semântica e ganchos de alta retenção
+│   └── capcut_bridge.py               # Integração com rascunhos do CapCut Desktop
+└── remotion/                           # Motor de Renderização 1080x1920 (React 19 + Remotion)
+    └── src/
+        ├── motion-library/
+        │   ├── BrandConfig.ts         # Contrato TypeScript de marca Palácio Acolhimento
+        │   ├── SocialSafeZones.ts     # Zonas seguras e offsets para componentes React
+        │   ├── ViralHeader.tsx        # Cabeçalho compacto superior (top: 116px)
+        │   ├── DynamicCaptions.tsx    # Legendas dinâmicas elevadas (bottom: 540px)
+        │   └── PalacioOutro.tsx       # Encerramento oficial com CTA e monograma
+        ├── Corte2CorrigidoComposition.tsx
+        └── Corte2CinematicoComposition.tsx
 ```
 
 ---
 
-## Inteligência Editorial Palácio.pro
+## 4. Engenharia de Zonas Seguras (Social Safe Zones)
 
-O editor é especializado nos pilares de Marcelo Palácio:
-1. **Dependência Química & Fundo de Poço:** Histórias viscerais de dor, peso corporal (ex: "quando cheguei na clínica com 55 kg"), internação involuntária e renascimento.
-2. **Acolhimento Familiar & Codependência:** O sofrimento de mães, pais e esposas; a família que adoece junto; como amar sem ser conivente.
-3. **Tratamento Humanizado & Clínica Vida Serena:** Quebra do estigma de manicômio; internação como ato de amor, respeito e suporte médico.
-4. **Superação & Nova Vida:** A sobriedade como conquista diária e transformação de vidas.
+Os elementos visuais respeitam rigorosamente a área útil das interfaces de Instagram Reels, TikTok, YouTube Shorts e Facebook Reels:
 
-### Estrutura de um Corte Viral Perfeito
-- **Gancho (0 a 3 segundos):** Frase de impacto direto que interrompe o feed e seleciona o público qualificado.
-- **Desenvolvimento (15 a 45 segundos):** Narrativa autêntica, ritmo envolvente, pausas dramáticas preservadas.
-- **Fechamento (5 a 10 segundos):** Reflexão profunda ou virada de chave que gera identificação e compartilhamentos.
+- **Cabeçalho de Título (`ViralHeader`):**
+  - Posicionado em `top: 116px`.
+  - Altura compacta (`72px`) no terço superior vazio.
+  - Nunca encobre a testa ou a linha dos olhos de Marcelo.
+  - Exibe o handle oficial `@palacioacolhimento`.
+- **Legendas Dinâmicas (`DynamicCaptions`):**
+  - Elevadas para `bottom: 540px` (linha vertical $Y \approx 1300\text{--}1380\text{px}$).
+  - Livres de obstrução do botão de áudio, legenda nativa do feed e botões laterais de interação.
+  - Efeito karaoke com destaque dourado (`#E5A93C`) na palavra falada.
 
 ---
 
-## Fluxo Operacional Definitivo
+## 5. Fluxo de Trabalho e Execução
 
-### 1. Mineração e Análise do Áudio Real
+### Execução via Master Pipeline 7.0 (Recomendado)
 ```bash
 /Users/palacio.pro/.gemini/antigravity/scratch/.venv/bin/python \
-  ~/.gemini/config/skills/edicao-video-palacio/cli.py analyze \
-  "/caminho/do/video.mp4" --count 7
+  -m core.pipeline \
+  --composition "corte-2-cinematico" \
+  --output "/Users/palacio.pro/Downloads/Corte_Cinematico.mp4" \
+  --brand "palacio-acolhimento" \
+  --profile "SOCIAL_VERTICAL_MASTER"
 ```
-- Extrai áudio mono 16kHz PCM WAV.
-- Mapeia todos os silêncios acústicos com FFmpeg VAD.
-- Transcreve palavras com Whisper `base` em `pt-BR`.
-- Minera os 7 melhores cortes com início/fim em silêncios reais.
-- Gera `cuts_manifest.json` e `review.html`.
 
-### 2. Renderização em Formato Reels/Shorts/TikTok
+### Renderização Direta via Remotion CLI
+```bash
+cd ~/.gemini/config/skills/edicao-video-palacio/remotion
+npx remotion render corte-2-cinematico ~/Downloads/Corte_Cinematico.mp4 --concurrency=7
+```
+
+### Auditoria e Validação de Qualidade
 ```bash
 /Users/palacio.pro/.gemini/antigravity/scratch/.venv/bin/python \
-  ~/.gemini/config/skills/edicao-video-palacio/cli.py render \
-  "/caminho/do/video.mp4"
+  /Users/palacio.pro/.gemini/antigravity/scratch/test_palacio_videos_7.py
 ```
-- Recorte 9:16 vertical (1080x1920) com Marcelo perfeitamente centralizado.
-- Normalização de áudio profissional EBU R128 (`-14 LUFS`, True Peak `-1.0 dB`).
-- Renderização ultra-rápida via Apple VideoToolbox (`h264_videotoolbox`).
-- Gera arquivos `.mp4` limpos e arquivos `.srt` sincronizados palavra por palavra.
-- Opção `--subtitles` para queimar legendas dinâmicas se desejado.
-- Opção `--capcut` para criar os rascunhos no CapCut Desktop.
-
-### 3. Revisão e Publicação
-- Abra o arquivo `review.html` no Safari ou Chrome para assistir aos cortes, conferir a métrica de validação acústica e copiar a legenda SEO com 1 clique.
+Critérios de aprovação obrigatórios:
+- Formato Vertical 9:16 (1080x1920) @ 30fps.
+- Áudio Masterizado: Loudness integrado entre `-14.5` e `-13.5` LUFS, True Peak $\le -0.9\text{ dBFS}$, zero clipping.
+- Marca 100% íntegra: Rejeição imediata se contiver `Palácio.pro` ou `@palacio.pro`.
+- Legendas e Títulos dentro dos limites do validador de Zonas Seguras.

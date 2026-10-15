@@ -1,0 +1,571 @@
+[
+  {
+    "start": 0.11,
+    "end": 1.27,
+    "text": "Quase não tenho amigos...",
+    "words": [
+      {
+        "word": "Quase",
+        "start": 0.11,
+        "end": 0.33
+      },
+      {
+        "word": "não",
+        "start": 0.33,
+        "end": 0.55
+      },
+      {
+        "word": "tenho",
+        "start": 0.55,
+        "end": 0.85
+      },
+      {
+        "word": "amigos...",
+        "start": 0.85,
+        "end": 1.27
+      }
+    ]
+  },
+  {
+    "start": 1.43,
+    "end": 2.23,
+    "text": "Eu quase não tenho",
+    "words": [
+      {
+        "word": "Eu",
+        "start": 1.43,
+        "end": 1.53
+      },
+      {
+        "word": "quase",
+        "start": 1.53,
+        "end": 1.75
+      },
+      {
+        "word": "não",
+        "start": 1.75,
+        "end": 1.97
+      },
+      {
+        "word": "tenho",
+        "start": 1.97,
+        "end": 2.23
+      }
+    ]
+  },
+  {
+    "start": 2.23,
+    "end": 2.75,
+    "text": "amigos.",
+    "words": [
+      {
+        "word": "amigos.",
+        "start": 2.23,
+        "end": 2.75
+      }
+    ]
+  },
+  {
+    "start": 3.45,
+    "end": 4.53,
+    "text": "Amigo de eu trazer aqui",
+    "words": [
+      {
+        "word": "Amigo",
+        "start": 3.45,
+        "end": 3.89
+      },
+      {
+        "word": "de eu",
+        "start": 4.01,
+        "end": 4.09
+      },
+      {
+        "word": "trazer",
+        "start": 4.09,
+        "end": 4.25
+      },
+      {
+        "word": "aqui",
+        "start": 4.25,
+        "end": 4.53
+      }
+    ]
+  },
+  {
+    "start": 4.53,
+    "end": 4.91,
+    "text": "na minha casa,",
+    "words": [
+      {
+        "word": "na",
+        "start": 4.53,
+        "end": 4.59
+      },
+      {
+        "word": "minha",
+        "start": 4.59,
+        "end": 4.73
+      },
+      {
+        "word": "casa,",
+        "start": 4.73,
+        "end": 4.91
+      }
+    ]
+  },
+  {
+    "start": 4.91,
+    "end": 5.41,
+    "text": "eu não tenho mais",
+    "words": [
+      {
+        "word": "eu",
+        "start": 4.91,
+        "end": 5.05
+      },
+      {
+        "word": "não",
+        "start": 5.05,
+        "end": 5.11
+      },
+      {
+        "word": "tenho",
+        "start": 5.11,
+        "end": 5.25
+      },
+      {
+        "word": "mais",
+        "start": 5.25,
+        "end": 5.41
+      }
+    ]
+  },
+  {
+    "start": 5.41,
+    "end": 5.75,
+    "text": "nenhum...",
+    "words": [
+      {
+        "word": "nenhum...",
+        "start": 5.41,
+        "end": 5.75
+      }
+    ]
+  },
+  {
+    "start": 5.75,
+    "end": 6.15,
+    "text": "O que eu tinha,",
+    "words": [
+      {
+        "word": "O que",
+        "start": 5.75,
+        "end": 5.93
+      },
+      {
+        "word": "eu",
+        "start": 5.93,
+        "end": 6.03
+      },
+      {
+        "word": "tinha,",
+        "start": 6.03,
+        "end": 6.15
+      }
+    ]
+  },
+  {
+    "start": 6.15,
+    "end": 6.53,
+    "text": "morreu!",
+    "words": [
+      {
+        "word": "morreu!",
+        "start": 6.15,
+        "end": 6.53
+      }
+    ]
+  },
+  {
+    "start": 7.29,
+    "end": 8.29,
+    "text": "Já perdi um monte",
+    "words": [
+      {
+        "word": "Já",
+        "start": 7.29,
+        "end": 7.63
+      },
+      {
+        "word": "perdi",
+        "start": 7.63,
+        "end": 7.97
+      },
+      {
+        "word": "um",
+        "start": 7.97,
+        "end": 8.05
+      },
+      {
+        "word": "monte",
+        "start": 8.05,
+        "end": 8.29
+      }
+    ]
+  },
+  {
+    "start": 8.29,
+    "end": 9.41,
+    "text": "de gente usando droga,",
+    "words": [
+      {
+        "word": "de",
+        "start": 8.29,
+        "end": 8.45
+      },
+      {
+        "word": "gente",
+        "start": 8.45,
+        "end": 8.63
+      },
+      {
+        "word": "usando",
+        "start": 8.63,
+        "end": 8.93
+      },
+      {
+        "word": "droga,",
+        "start": 8.93,
+        "end": 9.41
+      }
+    ]
+  },
+  {
+    "start": 9.41,
+    "end": 9.59,
+    "text": "meu irmão.",
+    "words": [
+      {
+        "word": "meu irmão.",
+        "start": 9.41,
+        "end": 9.59
+      }
+    ]
+  },
+  {
+    "start": 10.01,
+    "end": 11.05,
+    "text": "Eu já perdi gente",
+    "words": [
+      {
+        "word": "Eu",
+        "start": 10.01,
+        "end": 10.33
+      },
+      {
+        "word": "já",
+        "start": 10.33,
+        "end": 10.43
+      },
+      {
+        "word": "perdi",
+        "start": 10.43,
+        "end": 10.71
+      },
+      {
+        "word": "gente",
+        "start": 10.71,
+        "end": 11.05
+      }
+    ]
+  },
+  {
+    "start": 11.05,
+    "end": 12.43,
+    "text": "pra caramba nessa doença,",
+    "words": [
+      {
+        "word": "pra caramba",
+        "start": 11.05,
+        "end": 11.57
+      },
+      {
+        "word": "nessa",
+        "start": 11.57,
+        "end": 11.91
+      },
+      {
+        "word": "doença,",
+        "start": 11.91,
+        "end": 12.43
+      }
+    ]
+  },
+  {
+    "start": 12.43,
+    "end": 12.91,
+    "text": "meu brother.",
+    "words": [
+      {
+        "word": "meu brother.",
+        "start": 12.43,
+        "end": 12.91
+      }
+    ]
+  },
+  {
+    "start": 14.29,
+    "end": 15.45,
+    "text": "E eu não quero que seja",
+    "words": [
+      {
+        "word": "E eu",
+        "start": 14.29,
+        "end": 14.73
+      },
+      {
+        "word": "não",
+        "start": 14.73,
+        "end": 14.83
+      },
+      {
+        "word": "quero",
+        "start": 14.83,
+        "end": 15.01
+      },
+      {
+        "word": "que seja",
+        "start": 15.01,
+        "end": 15.45
+      }
+    ]
+  },
+  {
+    "start": 15.45,
+    "end": 15.75,
+    "text": "você,",
+    "words": [
+      {
+        "word": "você,",
+        "start": 15.45,
+        "end": 15.75
+      }
+    ]
+  },
+  {
+    "start": 16.35,
+    "end": 18.31,
+    "text": "a próxima pessoa que",
+    "words": [
+      {
+        "word": "a",
+        "start": 16.35,
+        "end": 17.37
+      },
+      {
+        "word": "próxima",
+        "start": 17.37,
+        "end": 17.73
+      },
+      {
+        "word": "pessoa",
+        "start": 17.73,
+        "end": 18.13
+      },
+      {
+        "word": "que",
+        "start": 18.13,
+        "end": 18.31
+      }
+    ]
+  },
+  {
+    "start": 18.31,
+    "end": 18.85,
+    "text": "eu vou perder.",
+    "words": [
+      {
+        "word": "eu",
+        "start": 18.31,
+        "end": 18.37
+      },
+      {
+        "word": "vou",
+        "start": 18.37,
+        "end": 18.49
+      },
+      {
+        "word": "perder.",
+        "start": 18.49,
+        "end": 18.85
+      }
+    ]
+  },
+  {
+    "start": 19.31,
+    "end": 20.49,
+    "text": "Porque qualquer pessoa que",
+    "words": [
+      {
+        "word": "Porque",
+        "start": 19.31,
+        "end": 19.67
+      },
+      {
+        "word": "qualquer",
+        "start": 19.67,
+        "end": 19.99
+      },
+      {
+        "word": "pessoa",
+        "start": 19.99,
+        "end": 20.33
+      },
+      {
+        "word": "que",
+        "start": 20.33,
+        "end": 20.49
+      }
+    ]
+  },
+  {
+    "start": 20.49,
+    "end": 22.11,
+    "text": "eu perco hoje pra",
+    "words": [
+      {
+        "word": "eu",
+        "start": 20.49,
+        "end": 20.57
+      },
+      {
+        "word": "perco",
+        "start": 20.57,
+        "end": 20.99
+      },
+      {
+        "word": "hoje",
+        "start": 20.99,
+        "end": 21.51
+      },
+      {
+        "word": "pra",
+        "start": 21.51,
+        "end": 22.11
+      }
+    ]
+  },
+  {
+    "start": 22.11,
+    "end": 22.57,
+    "text": "droga,",
+    "words": [
+      {
+        "word": "droga,",
+        "start": 22.11,
+        "end": 22.57
+      }
+    ]
+  },
+  {
+    "start": 22.57,
+    "end": 23.91,
+    "text": "pra mim dói.",
+    "words": [
+      {
+        "word": "pra mim",
+        "start": 22.57,
+        "end": 23.49
+      },
+      {
+        "word": "dói.",
+        "start": 23.49,
+        "end": 23.91
+      }
+    ]
+  },
+  {
+    "start": 24.21,
+    "end": 25.03,
+    "text": "Porque eu sei que vai ter",
+    "words": [
+      {
+        "word": "Porque eu",
+        "start": 24.21,
+        "end": 24.49
+      },
+      {
+        "word": "sei",
+        "start": 24.49,
+        "end": 24.61
+      },
+      {
+        "word": "que",
+        "start": 24.61,
+        "end": 24.77
+      },
+      {
+        "word": "vai ter",
+        "start": 24.77,
+        "end": 25.03
+      }
+    ]
+  },
+  {
+    "start": 25.03,
+    "end": 25.75,
+    "text": "uma mãe chorando...",
+    "words": [
+      {
+        "word": "uma mãe",
+        "start": 25.03,
+        "end": 25.31
+      },
+      {
+        "word": "chorando...",
+        "start": 25.31,
+        "end": 25.75
+      }
+    ]
+  },
+  {
+    "start": 26.15,
+    "end": 27.53,
+    "text": "vai ter uma família chorando por",
+    "words": [
+      {
+        "word": "vai ter",
+        "start": 26.15,
+        "end": 26.53
+      },
+      {
+        "word": "uma família",
+        "start": 26.53,
+        "end": 26.87
+      },
+      {
+        "word": "chorando",
+        "start": 26.87,
+        "end": 27.35
+      },
+      {
+        "word": "por",
+        "start": 27.35,
+        "end": 27.53
+      }
+    ]
+  },
+  {
+    "start": 27.53,
+    "end": 27.93,
+    "text": "trás.",
+    "words": [
+      {
+        "word": "trás.",
+        "start": 27.53,
+        "end": 27.93
+      }
+    ]
+  }
+]
