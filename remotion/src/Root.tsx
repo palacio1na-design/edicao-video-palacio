@@ -3,6 +3,7 @@ import { Corte1Composition } from "./Corte1Composition";
 import { Corte2Composition } from "./Corte2Composition";
 import { Corte2CorrigidoComposition } from "./Corte2CorrigidoComposition";
 import { Corte2CinematicoComposition } from "./Corte2CinematicoComposition";
+import { CreativeMasterComposition } from "./creative-engine/CreativeMasterComposition";
 import { DemoShowreel } from "./DemoShowreel";
 import { Scene, myCompSchema } from "./Scene";
 import { Teste1Composition } from "./Teste1Composition";
@@ -12,6 +13,14 @@ import { getMediaMetadata } from "./helpers/get-media-metadata";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="corte-2-creative-master"
+        component={CreativeMasterComposition}
+        fps={30}
+        durationInFrames={851}
+        width={1080}
+        height={1920}
+      />
       <Composition
         id="corte-2-corrigido"
         component={Corte2CorrigidoComposition}

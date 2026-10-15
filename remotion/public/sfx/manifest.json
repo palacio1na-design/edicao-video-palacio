@@ -1,0 +1,188 @@
+{
+  "version": "1.0",
+  "total_sounds": 10,
+  "library_name": "PALÁCIO CINEMATIC SOUND LIBRARY",
+  "license_info": "Todas as faixas geradas e certificadas para distribuição comercial, anúncios e redes sociais.",
+  "sounds": [
+    {
+      "id": "cinematic_sub_hit",
+      "name": "Sub Impacto Profundo",
+      "category": "01_impactos",
+      "filename": "cinematic_sub_hit.wav",
+      "relative_path": "01_impactos/cinematic_sub_hit.wav",
+      "absolute_path": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/01_impactos/cinematic_sub_hit.wav",
+      "duration_sec": 1.8,
+      "sample_rate": 48000,
+      "origin": "Palácio Audio Synthesis Engine (Pedalboard + DSP)",
+      "license": "Commercial Use Allowed - Palácio Audio Master (Royalty Free 100%)",
+      "tags": [
+        "impacto",
+        "grave",
+        "revelacao",
+        "corte_forte"
+      ]
+    },
+    {
+      "id": "heavy_door_slam",
+      "name": "Batida Pesada de Porta",
+      "category": "01_impactos",
+      "filename": "heavy_door_slam.wav",
+      "relative_path": "01_impactos/heavy_door_slam.wav",
+      "absolute_path": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/01_impactos/heavy_door_slam.wav",
+      "duration_sec": 1.5,
+      "sample_rate": 48000,
+      "origin": "Palácio Audio Synthesis Engine (Pedalboard + DSP)",
+      "license": "Commercial Use Allowed - Palácio Audio Master (Royalty Free 100%)",
+      "tags": [
+        "porta",
+        "fechou",
+        "batida",
+        "rejeicao"
+      ]
+    },
+    {
+      "id": "cinematic_whoosh",
+      "name": "Whoosh de Câmera Estéreo",
+      "category": "02_transicoes",
+      "filename": "cinematic_whoosh.wav",
+      "relative_path": "02_transicoes/cinematic_whoosh.wav",
+      "absolute_path": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/02_transicoes/cinematic_whoosh.wav",
+      "duration_sec": 1.2,
+      "sample_rate": 48000,
+      "origin": "Palácio Audio Synthesis Engine (Pedalboard + DSP)",
+      "license": "Commercial Use Allowed - Palácio Audio Master (Royalty Free 100%)",
+      "tags": [
+        "whoosh",
+        "transicao",
+        "corte",
+        "zoom"
+      ]
+    },
+    {
+      "id": "night_city_wind",
+      "name": "Vento e Ar da Noite",
+      "category": "03_ambientes",
+      "filename": "night_city_wind.wav",
+      "relative_path": "03_ambientes/night_city_wind.wav",
+      "absolute_path": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/03_ambientes/night_city_wind.wav",
+      "duration_sec": 6.0,
+      "sample_rate": 48000,
+      "origin": "Palácio Audio Synthesis Engine (Pedalboard + DSP)",
+      "license": "Commercial Use Allowed - Palácio Audio Master (Royalty Free 100%)",
+      "tags": [
+        "vento",
+        "rua",
+        "noite",
+        "solidao"
+      ]
+    },
+    {
+      "id": "door_firm_close",
+      "name": "Porta Fechando com Tranca",
+      "category": "04_acontecimentos",
+      "filename": "door_firm_close.wav",
+      "relative_path": "04_acontecimentos/door_firm_close.wav",
+      "absolute_path": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/04_acontecimentos/door_firm_close.wav",
+      "duration_sec": 1.5,
+      "sample_rate": 48000,
+      "origin": "Palácio Audio Synthesis Engine (Pedalboard + DSP)",
+      "license": "Commercial Use Allowed - Palácio Audio Master (Royalty Free 100%)",
+      "tags": [
+        "porta",
+        "fechou",
+        "apartamento",
+        "tranca"
+      ]
+    },
+    {
+      "id": "distant_police_siren",
+      "name": "Sirene Distante de Viatura",
+      "category": "04_acontecimentos",
+      "filename": "distant_police_siren.wav",
+      "relative_path": "04_acontecimentos/distant_police_siren.wav",
+      "absolute_path": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/04_acontecimentos/distant_police_siren.wav",
+      "duration_sec": 4.5,
+      "sample_rate": 48000,
+      "origin": "Palácio Audio Synthesis Engine (Pedalboard + DSP)",
+      "license": "Commercial Use Allowed - Palácio Audio Master (Royalty Free 100%)",
+      "tags": [
+        "policia",
+        "viatura",
+        "sirene",
+        "urgencia"
+      ]
+    },
+    {
+      "id": "tension_drone_c_minor",
+      "name": "Drone de Tensão e Dor",
+      "category": "05_cinematograficos",
+      "filename": "tension_drone_c_minor.wav",
+      "relative_path": "05_cinematograficos/tension_drone_c_minor.wav",
+      "absolute_path": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/05_cinematograficos/tension_drone_c_minor.wav",
+      "duration_sec": 5.0,
+      "sample_rate": 48000,
+      "origin": "Palácio Audio Synthesis Engine (Pedalboard + DSP)",
+      "license": "Commercial Use Allowed - Palácio Audio Master (Royalty Free 100%)",
+      "tags": [
+        "tensao",
+        "dor",
+        "suspense",
+        "drama"
+      ]
+    },
+    {
+      "id": "hope_resolution_chord",
+      "name": "Acorde de Resolução e Esperança",
+      "category": "05_cinematograficos",
+      "filename": "hope_resolution_chord.wav",
+      "relative_path": "05_cinematograficos/hope_resolution_chord.wav",
+      "absolute_path": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/05_cinematograficos/hope_resolution_chord.wav",
+      "duration_sec": 4.5,
+      "sample_rate": 48000,
+      "origin": "Palácio Audio Synthesis Engine (Pedalboard + DSP)",
+      "license": "Commercial Use Allowed - Palácio Audio Master (Royalty Free 100%)",
+      "tags": [
+        "esperanca",
+        "recuperacao",
+        "fechamento",
+        "futuro"
+      ]
+    },
+    {
+      "id": "card_glass_pop",
+      "name": "Pop de Card e Badge 2.5D",
+      "category": "06_motion_design",
+      "filename": "card_glass_pop.wav",
+      "relative_path": "06_motion_design/card_glass_pop.wav",
+      "absolute_path": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/06_motion_design/card_glass_pop.wav",
+      "duration_sec": 0.35,
+      "sample_rate": 48000,
+      "origin": "Palácio Audio Synthesis Engine (Pedalboard + DSP)",
+      "license": "Commercial Use Allowed - Palácio Audio Master (Royalty Free 100%)",
+      "tags": [
+        "pop",
+        "card",
+        "badge",
+        "elemento"
+      ]
+    },
+    {
+      "id": "subtle_sorrow_wind",
+      "name": "Sopro Suave de Solidão",
+      "category": "07_emocionais",
+      "filename": "subtle_sorrow_wind.wav",
+      "relative_path": "07_emocionais/subtle_sorrow_wind.wav",
+      "absolute_path": "/Users/palacio.pro/.gemini/config/skills/edicao-video-palacio/assets/sound-library/07_emocionais/subtle_sorrow_wind.wav",
+      "duration_sec": 6.0,
+      "sample_rate": 48000,
+      "origin": "Palácio Audio Synthesis Engine (Pedalboard + DSP)",
+      "license": "Commercial Use Allowed - Palácio Audio Master (Royalty Free 100%)",
+      "tags": [
+        "solidao",
+        "tristeza",
+        "emocao",
+        "rua"
+      ]
+    }
+  ]
+}
