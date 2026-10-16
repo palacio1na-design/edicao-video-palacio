@@ -1,0 +1,139 @@
+{
+  "engine": "Palácio Editor 8.0 (Opus Pipeline Reversed)",
+  "source_video": "/Users/palacio.pro/Downloads/Tematica Vida serena.mp4",
+  "virality_model": {
+    "hook_weight": 0.35,
+    "autonomy_weight": 0.3,
+    "value_weight": 0.2,
+    "pacing_weight": 0.15
+  },
+  "auto_reframe": {
+    "mode": "active_speaker_detection",
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "smoothing": "linear_damping"
+  },
+  "captions": {
+    "style": "karaoke_dynamic",
+    "highlight_color": "#E5A93C",
+    "inactive_color": "#FFFFFF",
+    "safe_zone_y": 1380
+  },
+  "cuts": [
+    {
+      "start_sec": 1214.16,
+      "end_sec": 1246.0,
+      "duration_sec": 31.84,
+      "text": "você conheça, mas sua mãe, seu pai, sua irmã, seus filhos, se você ainda não se ama, se você tá criando um personagem dentro de você. Eu tô falando tudo isso, me dirigindo a você, mas isso sou eu falando de mim. Eu era desse jeito. Eu criava um personagem para mim viver uma história que não era minha, para mim fazer parte das coisas,",
+      "headline": "O ERRO QUE TODA FAMÍLIA COMETE",
+      "scores": {
+        "virality_score": 84,
+        "hook_score": 95,
+        "autonomy_score": 90,
+        "value_score": 53,
+        "pacing_score": 85,
+        "wpm": 122.5,
+        "weights": {
+          "hook": 0.35,
+          "autonomy": 0.3,
+          "value": 0.2,
+          "pacing": 0.15
+        }
+      },
+      "virality_score": 84,
+      "cut_id": "corte_opus_03"
+    },
+    {
+      "start_sec": 1689.96,
+      "end_sec": 1721.92,
+      "duration_sec": 31.96,
+      "text": "Você precisa dos seus filhos para quê? Eles precisam de você. Eles precisam de você. E olha, se você não ficar entrar em recuperação, logo logo teus filhos vai estar chamando outro cara de pai e tu vai continuar nessa merda de vida se internando, escutando problema",
+      "headline": "O ERRO QUE TODA FAMÍLIA COMETE",
+      "scores": {
+        "virality_score": 84,
+        "hook_score": 99,
+        "autonomy_score": 90,
+        "value_score": 69,
+        "pacing_score": 55,
+        "wpm": 88.2,
+        "weights": {
+          "hook": 0.35,
+          "autonomy": 0.3,
+          "value": 0.2,
+          "pacing": 0.15
+        }
+      },
+      "virality_score": 84,
+      "cut_id": "corte_opus_04"
+    },
+    {
+      "start_sec": 2080.48,
+      "end_sec": 2113.76,
+      "duration_sec": 33.28,
+      "text": "minha mãe sem chorar. Eu sou conhecido porque eu choro muito, mas eu não consigo falar da minha mãe sem chorar. Minha mãe é minha rainha, cara. Minha mãe é tudo que eu tudo que eu tinha de mais valioso na minha vida, cara. Tenho quatro filhos, eu amo eles do fundo do meu coração, assim, minha esposa, meu pai, minhas irmãs, assim, mas minha mãe era, era tudo para mim, velho.",
+      "headline": "O ERRO QUE TODA FAMÍLIA COMETE",
+      "scores": {
+        "virality_score": 92,
+        "hook_score": 95,
+        "autonomy_score": 99,
+        "value_score": 81,
+        "pacing_score": 85,
+        "wpm": 129.8,
+        "weights": {
+          "hook": 0.35,
+          "autonomy": 0.3,
+          "value": 0.2,
+          "pacing": 0.15
+        }
+      },
+      "virality_score": 92,
+      "cut_id": "corte_opus_01"
+    },
+    {
+      "start_sec": 3448.56,
+      "end_sec": 3476.8,
+      "duration_sec": 28.24,
+      "text": "Meu pai tem 84 anos. Meu pai foi alcoolista. Eu amo ele. Amo, amo, amo meu pai. Meu pai tem enfisema pulmonar, ainda fuma, né? E eu amo meu pai. E meu pai taxista até hoje trabalha 84 anos, meu irmão. E e eu deveria até falar mais do meu pai nas minhas partilhas. Meu pai, né? Algum dia vocês foram lá palácio acolhimento. Meu pai faz muita parte",
+      "headline": "O ACOLHIMENTO QUE SALVA VIDAS",
+      "scores": {
+        "virality_score": 84,
+        "hook_score": 95,
+        "autonomy_score": 90,
+        "value_score": 53,
+        "pacing_score": 85,
+        "wpm": 146.6,
+        "weights": {
+          "hook": 0.35,
+          "autonomy": 0.3,
+          "value": 0.2,
+          "pacing": 0.15
+        }
+      },
+      "virality_score": 84,
+      "cut_id": "corte_opus_05"
+    },
+    {
+      "start_sec": 3468.08,
+      "end_sec": 3497.88,
+      "duration_sec": 29.8,
+      "text": "meu pai nas minhas partilhas. Meu pai, né? Algum dia vocês foram lá palácio acolhimento. Meu pai faz muita parte muito muito e muita coisa minha. Meu pai tá junto, né? No dos no meus posts, meus vídeos, né? que ele eu ele participa muito hoje da minha vida, né, cara? Mas ele tem a vida dele, né? Ele tem a vida dele. Hoje eu compreendo dessa forma, ele mora próximo daqui de onde eu moro, mas eu acabo nem vendo ele tanto, né?",
+      "headline": "O ACOLHIMENTO QUE SALVA VIDAS",
+      "scores": {
+        "virality_score": 87,
+        "hook_score": 99,
+        "autonomy_score": 99,
+        "value_score": 61,
+        "pacing_score": 70,
+        "wpm": 169.1,
+        "weights": {
+          "hook": 0.35,
+          "autonomy": 0.3,
+          "value": 0.2,
+          "pacing": 0.15
+        }
+      },
+      "virality_score": 87,
+      "cut_id": "corte_opus_02"
+    }
+  ]
+}
